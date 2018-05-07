@@ -1,0 +1,468 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding: 20px 10px;
+    width: 98%;
+}
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+h2 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 22px;
+}
+h3 {
+    color: gray;
+}
+.main {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.header p {
+    margin: 0;
+}
+.header-name {
+    font-size: 35px;
+    font-weight: 600;
+}
+.header-fonts {
+    font-weight: 100;
+}
+.prof {
+    font-size: 18px;
+    color: grey;
+    opacity: 0.8;
+}
+.prof-font {
+    font-weight: 600;
+    color: red;
+    font-size: 20px;
+}
+.photo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: url(photo.jpg);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* top content end */
+
+.font-red {
+    color: red;
+}
+.font-green {
+    color: green;
+}
+.font-grey {
+    color: grey;
+}
+.content-left {
+    width: 33%;
+    float: left;
+}
+.head {
+    border-bottom: 1px solid gray;
+    font-weight: 600;
+}
+.info p {
+    color: grey;    
+}
+.light-border {
+    border-bottom: 1px solid lightgray;
+}
+.title {
+    float: left;
+    width: 35%;
+}
+.info {
+    float: left;
+    width: 65%;
+}
+.portfolio {
+    float: left;
+    width: 100%;
+}
+.blog-float-big {
+    float: left;
+    width: 55%;
+    color: grey;
+}
+.blog-float-small {
+    float: left;
+    width: 45%;
+}
+.content-top {
+    width: 100%;
+}
+.awards {
+    margin-left: 20px;
+    float: left;
+    width: 31%;
+}
+.competencies {
+    margin-left: 20px;
+    float: left;
+    width: 31%;
+}
+
+/* graph blocks Exp absolute*/
+.graphics {
+    padding: 20px;
+    float: left;
+    width: 66%;
+    position: relative;
+}
+.experience p {
+    color: white;
+    font-size: 20px;
+}
+.exp-head {
+    position: absolute;
+    top: 16px;
+    left: 390px;
+    font-weight: 600;
+}
+.man-graph {
+    position: absolute;
+    top: 50px;
+    left: 365px;
+    border-radius: 5px;
+    background-color: rgb(255, 60, 0);
+    text-align: center;
+    color: white;
+    padding: 0 5px;
+}
+.years-2012 {
+    position: absolute;
+    top: 102px;
+    left: 370px;
+    color: grey;
+}
+.node-2012 {
+    position: absolute;
+    top: 122px;
+    left: 430px;
+    height: 18px;
+    width: 18px;
+    background-color: gray;
+    border-radius: 50%;
+    border: 2px solid white; 
+    z-index: 1;
+}
+.vert {
+    position: absolute;
+    top: 125px;
+    left: 435px;
+    width: 8px;
+    height: 330px;
+    background-color: lightgrey;
+}
+.lead-graph {
+    width: 200px;
+    position: absolute;
+    top: 160px;
+    left: 200px;
+    border-radius: 5px;
+    background-color: rgb(83, 80, 80);
+    color: white;
+    text-align: center;
+}
+.lead-graph h2 {
+    text-align: right;
+    padding: 0 10px;
+}
+.node-2009 {
+    position: absolute;
+    top: 180px;
+    left: 430px;
+    height: 18px;
+    width: 18px;
+    background-color: gray;
+    border-radius: 50%;
+    border: 2px solid white; 
+    z-index: 1;
+}
+.years-2009 {
+    position: absolute;
+    top: 159px;
+    left: 470px;
+    color: grey;
+}
+.sr-dis-inc {
+    width: 200px;
+    position: absolute;
+    top: 240px;
+    left: 475px;
+    border-radius: 5px;
+    background-color: rgba(97, 102, 116, 0.822);
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+}
+.node-2007 {
+    position: absolute;
+    top: 265px;
+    left: 430px;
+    height: 18px;
+    width: 18px;
+    background-color: gray;
+    border-radius: 50%;
+    border: 2px solid white; 
+    z-index: 1;
+}
+.years-2007 {
+    position: absolute;
+    top: 243px;
+    left: 370px;
+    color: grey;
+}
+.sr-dis-ecom {
+    width: 200px;
+    position: absolute;
+    top: 320px;
+    left: 200px;
+    border-radius: 5px;
+    background-color: rgba(100, 113, 148, 0.822);
+    color: white;
+    text-align: right;
+    padding-right: 10px;
+}
+.node-2006 {
+    position: absolute;
+    top: 343px;
+    left: 430px;
+    height: 18px;
+    width: 18px;
+    background-color: gray;
+    border-radius: 50%;
+    border: 2px solid white; 
+    z-index: 1;
+}
+.years-2006 {
+    position: absolute;
+    top: 322px;
+    left: 470px;
+    color: grey;
+}
+.graph-dis {
+    width: 200px;
+    position: absolute;
+    top: 400px;
+    left: 475px;
+    border-radius: 5px;
+    background-color: rgba(78, 79, 80, 0.733);
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+}
+.node-2004 {
+    position: absolute;
+    top: 421px;
+    left: 430px;
+    height: 18px;
+    width: 18px;
+    background-color: gray;
+    border-radius: 50%;
+    border: 2px solid white; 
+    z-index: 1;
+}
+.years-2004 {
+    position: absolute;
+    top: 400px;
+    left: 370px;
+    color: grey;
+}
+
+.graph2 {
+    padding: 20px;
+    float: left;
+    width: 100%;
+    position: relative;
+}
+.education p {
+    color: white;
+    font-size: 20px;
+}
+.ed-head {
+    position: absolute;
+    top: 480px;
+    left: 390px;
+}
+.mult-art {
+    position: absolute;
+    top: 510px;
+    left: 300px;
+    color: white;
+    background-color: green;
+    width: 290px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.ed-node-2011 {
+    position: absolute;
+    top: 561px;
+    left: 430px;
+    height: 18px;
+    width: 18px;
+    background-color: gray;
+    border-radius: 50%;
+    border: 2px solid white; 
+    z-index: 1;
+}
+.ed-2011 {
+    position: absolute;
+    top: 539px;
+    left: 470px;
+    color: grey;
+}
+.ed-vert {
+    position: absolute;
+    top: 565px;
+    left: 435px;
+    width: 8px;
+    height: 350px;
+    background-color: lightgrey;
+} 
+.ed-node-2006 {
+    position: absolute;
+    top: 611px;
+    left: 415px;
+    height: 50px;
+    width: 50px;
+    background-color: gray;
+    border-radius: 50%;
+    border: 2px solid white; 
+    z-index: 1;
+    color: white; 
+    text-align: center;
+    line-height: 45px; 
+}
+.arena-mult {
+    position: absolute;
+    top: 610px;
+    left: 190px;
+    background-color: rgba(46, 114, 46, 0.76);
+    padding: 0 5px;
+    border-radius: 5px;
+    color: white;
+    text-align: right;
+}
+.alam-univ {
+    position: absolute;
+    top: 610px;
+    left: 470px;
+    width: 275px;
+    background-color: rgba(65, 187, 157, 0.76);
+    padding: 0 5px;
+    border-radius: 5px;
+    color: white;
+    text-align: left;
+}
+.comp-prof {
+    position: absolute;
+    top: 682px;
+    left: 470px;
+    width: 285px;
+    background-color: rgba(204, 90, 204, 0.836);
+    padding: 0 5px;
+    border-radius: 5px;
+    color: white;
+    text-align: left;
+}
+.ed-2004 {
+    position: absolute;
+    top: 678px;
+    left: 370px;
+}
+.ed-node-2004 {
+    position: absolute;
+    top: 700px;
+    left: 430px;
+    height: 18px;
+    width: 18px;
+    background-color: gray;
+    border-radius: 50%;
+    border: 2px solid white; 
+    z-index: 1;    
+}
+.cert-apt {
+    position: absolute;
+    top: 732px;
+    left: 160px;
+    background-color: rgba(58, 176, 212, 0.925);
+    padding: 0 5px;
+    border-radius: 5px;
+    color: white;
+    text-align: right;
+}
+.ed-node-2003{
+    position: absolute;
+    top: 756px;
+    left: 430px;
+    height: 18px;
+    width: 18px;
+    background-color: gray;
+    border-radius: 50%;
+    border: 2px solid white; 
+    z-index: 1;    
+}
+.ed-2003 {
+    position: absolute;
+    top: 735px;
+    left: 470px;
+    color: grey;
+}
+.ed-node-2002 {
+    position: absolute;
+    top: 830px;
+    left: 430px;
+    height: 18px;
+    width: 18px;
+    background-color: gray;
+    border-radius: 50%;
+    border: 2px solid white; 
+    z-index: 1;    
+}
+.ed-2002 {
+    position: absolute;
+    top: 809px;
+    left: 370px;
+}
+.cert-nicon {
+    position: absolute;
+    top: 802px;
+    left: 460px;
+    width: 305px;
+    background-color: rgba(211, 94, 16, 0.925);
+    padding: 0 5px;
+    border-radius: 5px;
+    color: white;
+    text-align: left;
+}
+.intermed {
+    position: absolute;
+    top: 882px;
+    left: 370px;
+    background-color: rgb(110, 107, 105);
+    padding: 0 5px;
+    border-radius: 5px;
+    color: white;
+    text-align: left; 
+    padding: 8px;  
+}
+.ed-2001 {
+    position: absolute;
+    top: 909px;
+    left: 420px;
+}
