@@ -1,13 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+
 *,
 *:before,
 *:after {
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 body {
-    font-family: 'Open Sans Condensed', sans-serif;
-    padding: 20px 10px;
-    width: 98%;
+    padding: 10px 20px;
 }
 p {
     margin-top: 5px;
@@ -21,13 +21,12 @@ h2 {
 h3 {
     color: gray;
 }
+header {
+    margin-bottom: 10px;
+}
 .main {
     width: 100%;
     margin: 0 auto;
-    position: relative;
-}
-.header p {
-    margin: 0;
 }
 .header-name {
     font-size: 35px;
@@ -52,8 +51,8 @@ h3 {
     border-radius: 50%;
     background-image: url(photo.jpg);
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 1rem;
+    right: 1rem;
 }
 
 /* top content end */
@@ -66,61 +65,67 @@ h3 {
 }
 .font-grey {
     color: grey;
-}
-.content-left {
-    width: 33%;
-    float: left;
+    border-bottom: 1px solid lightgray;
 }
 .head {
     border-bottom: 1px solid gray;
-    font-weight: 600;
-}
-.info p {
-    color: grey;    
-}
-.light-border {
-    border-bottom: 1px solid lightgray;
 }
 .title {
+    color: grey;    
     float: left;
     width: 35%;
+    border-bottom: 1px solid lightgray;
 }
 .info {
+    color: grey;    
     float: left;
     width: 65%;
+    border-bottom: 1px solid lightgray;
 }
-.portfolio {
-    float: left;
-    width: 100%;
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+section {
+    margin-top: 10px;
 }
 .blog-float-big {
     float: left;
     width: 55%;
-    color: grey;
+    border-bottom: 1px solid lightgray;
 }
 .blog-float-small {
     float: left;
     width: 45%;
+    color: grey;
+    border-bottom: 1px solid lightgray;
 }
-.content-top {
-    width: 100%;
+.content-left {
+    float: left;
+    width: 30%;
+}
+.content-right {
+    float: right;
+    width: 70%;
 }
 .awards {
-    margin-left: 20px;
+    padding-left: 20px;
     float: left;
-    width: 31%;
+    width: 50%;
 }
 .competencies {
-    margin-left: 20px;
+    padding-left: 20px;
     float: left;
-    width: 31%;
+    width: 50%;
 }
 
 /* graph blocks Exp absolute*/
+
 .graphics {
     padding: 20px;
     float: left;
-    width: 66%;
+    width: 65%;
     position: relative;
 }
 .experience p {
@@ -134,22 +139,23 @@ h3 {
     font-weight: 600;
 }
 .man-graph {
+    width: 180px;
     position: absolute;
     top: 50px;
-    left: 365px;
+    left: 350px;
     border-radius: 5px;
     background-color: rgb(255, 60, 0);
     text-align: center;
     color: white;
     padding: 0 5px;
 }
-.years-2012 {
+.dates-2012 {
     position: absolute;
     top: 102px;
     left: 370px;
     color: grey;
 }
-.node-2012 {
+.circle-2012 {
     position: absolute;
     top: 122px;
     left: 430px;
@@ -182,7 +188,7 @@ h3 {
     text-align: right;
     padding: 0 10px;
 }
-.node-2009 {
+.circle-2009 {
     position: absolute;
     top: 180px;
     left: 430px;
@@ -193,7 +199,7 @@ h3 {
     border: 2px solid white; 
     z-index: 1;
 }
-.years-2009 {
+.dates-2009 {
     position: absolute;
     top: 159px;
     left: 470px;
@@ -210,7 +216,7 @@ h3 {
     text-align: left;
     padding-left: 10px;
 }
-.node-2007 {
+.circle-2007 {
     position: absolute;
     top: 265px;
     left: 430px;
@@ -221,7 +227,7 @@ h3 {
     border: 2px solid white; 
     z-index: 1;
 }
-.years-2007 {
+.dates-2007 {
     position: absolute;
     top: 243px;
     left: 370px;
@@ -238,7 +244,7 @@ h3 {
     text-align: right;
     padding-right: 10px;
 }
-.node-2006 {
+.circle-2006 {
     position: absolute;
     top: 343px;
     left: 430px;
@@ -249,7 +255,7 @@ h3 {
     border: 2px solid white; 
     z-index: 1;
 }
-.years-2006 {
+.dates-2006 {
     position: absolute;
     top: 322px;
     left: 470px;
@@ -266,7 +272,7 @@ h3 {
     text-align: left;
     padding-left: 10px;
 }
-.node-2004 {
+.circle-2004 {
     position: absolute;
     top: 421px;
     left: 430px;
@@ -277,18 +283,11 @@ h3 {
     border: 2px solid white; 
     z-index: 1;
 }
-.years-2004 {
+.dates-2004 {
     position: absolute;
     top: 400px;
     left: 370px;
     color: grey;
-}
-
-.graph2 {
-    padding: 20px;
-    float: left;
-    width: 100%;
-    position: relative;
 }
 .education p {
     color: white;
@@ -309,7 +308,7 @@ h3 {
     padding: 5px;
     border-radius: 5px;
 }
-.ed-node-2011 {
+.ed-circle-2011 {
     position: absolute;
     top: 561px;
     left: 430px;
@@ -334,7 +333,7 @@ h3 {
     height: 350px;
     background-color: lightgrey;
 } 
-.ed-node-2006 {
+.ed-circle-2006 {
     position: absolute;
     top: 611px;
     left: 415px;
@@ -385,7 +384,7 @@ h3 {
     top: 678px;
     left: 370px;
 }
-.ed-node-2004 {
+.ed-circle-2004 {
     position: absolute;
     top: 700px;
     left: 430px;
@@ -406,7 +405,7 @@ h3 {
     color: white;
     text-align: right;
 }
-.ed-node-2003{
+.ed-circle-2003{
     position: absolute;
     top: 756px;
     left: 430px;
@@ -423,7 +422,7 @@ h3 {
     left: 470px;
     color: grey;
 }
-.ed-node-2002 {
+.ed-circle-2002 {
     position: absolute;
     top: 830px;
     left: 430px;
