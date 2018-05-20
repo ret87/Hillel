@@ -1,0 +1,156 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    margin: 0;
+}
+address {
+    width: 100%;
+    border-bottom: 1px inset rgb(179, 221, 240);
+}
+.wrapper {
+    width: 100%;
+    padding: 1% 10% 1% 10%;
+}
+ul {
+    margin-left: -40px;
+}
+li {
+    list-style: none;
+    float: right;
+}
+a {
+    text-decoration: none;
+}
+.adress-top-left {
+    float: left;
+    width: 50%;
+}   
+.address-top-left p {
+    float: left;
+    font-size: .7em;
+    margin: 0;
+    padding: 0 2rem 0 1rem;
+    color: rgba(101, 109, 224, 0.89);
+}    
+.mail {  
+    float: left;
+    margin-top: .3rem;
+    width: 13px;
+    height: 14px;
+    background-image: url(https://use.fontawesome.com/releases/v5.0.13/svgs/regular/envelope.svg);
+}
+.phone {
+    float: left;
+    width: 13px;
+    height: 20px;
+    background-image: url(https://use.fontawesome.com/releases/v5.0.13/svgs/solid/mobile-alt.svg);
+}
+.address-top-right {
+    float: right;
+    width: 50%;
+    margin: 0;
+}
+.address-top-right li{
+    margin: 0 .1rem;
+}
+.address-top-right a {
+    display: inline-block;
+    width: 13px;
+    height: 14px;
+    margin: 0 0 0 0rem;
+    padding: 0 .5rem;
+}
+.soc-fb a {
+    background-image: url(icons/facebook.png);
+} 
+.soc-goog a {
+    background-image: url(icons/google.png);
+}
+.soc-twit a {
+    background-image: url(icons/twitter.png);
+}
+.soc-print a {
+    background-image: url(icons/pinterest.png);
+}
+.soc-beha a {
+    background-image: url(icons/behance.png);
+}
+.soc-six a {
+    background-image: url(icons/www.png);
+}
+header {
+    margin: 2rem 0;
+}
+.logo {
+    width: 20%;
+    float: left;
+}
+.menu {
+    width: 55%;
+    float: left;
+}
+.menu li {
+    text-align: center;
+    width: 14%;
+}
+.menu a {
+    font-size: 0.5em;
+    padding: .5rem .5rem;
+    font-weight: bold;
+    color: rgba(19, 19, 87, 0.925);
+}
+.search {
+    float: right;
+    margin: .9rem 0 0 0;
+}
+.search input {
+    border: none;
+}
+.search input:hover {
+    border: 1px solid lightblue;
+}
+.search button {
+    border: none;
+}
+section {
+    background-image: url(img/section_bckrnd.jpg);
+    height: 20rem;
+}
+.section-top {
+    height: 20%;
+}
+.section-mid {
+    height: 60%;
+}
+.section-bot {
+    height: 20%;
+}
+.section-main {
+    text-align: center;
+    color: white;
+}
+.section-main a {
+    background-color: rgba(48, 236, 236, 0.753);
+    padding: .5rem 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+.section-main p {
+    font-size: 0.7em;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+h1 {
+    font-size: 2em;
+    margin-bottom: .3rem;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
