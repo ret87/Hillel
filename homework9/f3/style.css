@@ -1,0 +1,114 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+body {
+    min-height: 100%;
+    background: lightgrey;
+    margin: 0 auto;
+    padding: 2rem 1rem 0 1rem;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+header a, footer a {
+    text-decoration: none;
+    color: white;
+}
+h1 {
+    margin-top: 0;
+}
+header {
+    width: 100%;
+    max-width: 960px;
+    min-width: 460px;
+    margin: 0 auto 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.logo {
+    background: black;
+    width: 200px;
+    height: 80px;
+    display: flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+}
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav-itm {
+    background: black;
+    width: 130px;
+    height: 50px;
+    margin: 0rem 0 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main {
+    width: 100%;
+    max-width: 960px;
+    min-width: 460px;
+    margin: 0 auto;
+    flex: auto;
+}
+.line-f {
+    background: black;
+    width: 70%;
+    min-height: 80px;
+    margin: 0 0 2rem 2rem;
+}
+.line-s {
+    background: black;
+    width: 80%;
+    min-height: 80px;
+    margin: 0 0 2rem 2rem;
+}
+.grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.grid-item {
+    margin-bottom: 2rem;
+    flex: 0 1 calc(25% - 2rem * 3/4);
+}
+article img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 2rem;
+}
+footer {
+    width: 100%;
+    max-width: 960px;
+    min-width: 460px;
+    margin: 0 auto;
+    background: black;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+    .grid-item {
+        flex: 0 1 calc(50% - 2rem * 3/4);
+	}
+}
+@media screen and (max-width: 700px) {
+    nav {
+        margin: 1rem 0rem 0rem -1rem;
+    }
+
+}
+@media screen and (max-width: 600px) {
+    .grid-item {
+        flex: 0 1 calc(100% - 2rem * 3/4);
+	}
+}
