@@ -1,0 +1,78 @@
+body {
+    font-family: 'Roboto', 'open_sansregular', sans-serif;
+}
+nav.navbar {
+    background: rgb(0, 0, 0, .7);
+}
+nav .navbar-brand{
+    font-weight: 600;
+    font-size: 1em;
+}
+nav .nav-link {
+    font-weight: 600;
+    font-size: .9em;
+}
+header.main {
+    background: linear-gradient(0deg,#ff6a00 0,#ee0979 100%);
+    padding-top: calc(7rem + 72px);
+    padding-bottom: 7rem;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+header .main-head {
+    font-size: 4rem;
+    font-weight: 800;
+}
+header .main-subhead{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.main_btn {
+    padding: 1.5rem 3rem;
+    font-size: .9rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    border-radius: 5rem;
+    background-color:#ee0979;
+    border-color:#ee0979
+}
+.main_btn:active,
+.main_btn:focus,
+.main_btn:hover {
+    background: #bd0760;
+    border-color:#bd0760;
+}
+header .bg-circle {
+    background: linear-gradient(0deg,#ee0979 0,#ff6a00 100%);
+    position: absolute;
+    border-radius: 100%;
+    z-index: -1;
+}
+.bg-circle-1 {
+    height: 90rem;
+    width: 90rem;
+    top: -10rem;
+    left: -55rem;
+}
+.bg-circle-2 {
+    height: 50rem;
+    width: 50rem;
+    top: -25rem;
+    right: -25rem;   
+}
+.bg-circle-3 {
+    height: 20rem;
+    width: 20rem;
+    bottom: -10rem;
+    right: 5%;
+}
+.bg-circle-4 {
+    height:30rem;
+    width:30rem;
+    top:-5rem;
+    right:35%
+}
+footer {
+    background-color: black;
+}
