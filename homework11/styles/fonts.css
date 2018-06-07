@@ -1,7 +1,8 @@
 @font-face {
     font-family: 'open_sansregular';
-    src: url('fonts/opensans-400-normal-webfont.woff2') format('woff2'),
-         url('fonts/opensans-400-normal-webfont.woff') format('woff');
+    src: url('/homework11/fonts/opensans-400-normal-webfont.woff') format('woff2'),
+         url('/homework11/fonts/opensans-400-normal-webfont.woff2') format('woff2'),
+         url('/homework11/fonts/opensans-400-normal-webfont.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 }
