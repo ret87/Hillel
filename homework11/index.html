@@ -5,33 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/mine-normalize.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" 
+          integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/fonts.css">
     <link rel="stylesheet" href="main.css">
-
 </head>
 <body>
     <div class="wrapper contacts-top">
         <address class="address-top">
-            <div class="mail"></div>
+            <i class="far fa-envelope"></i>
             <p>info@reen.com</p>
-            <div class="phone"></div>
+            <i class="fas fa-mobile-alt"></i>
             <p>+00 (123) 456 78 90</p>
         </address>
         <div class="soc-top"> 
-            <div class="soc-fb"><a href="https://www.facebook.com/"></a></div>
-            <div class="soc-goog"><a href="https://www.plus.google.com/"></a></div>
-            <div class="soc-twit"><a href="https://www.twitter.com/"></a></div>
-            <div class="soc-print"><a href="https://www.pinterest.com/"></a></div>
-            <div class="soc-beha"><a href="https://www.behance.net/"></a></div>
-            <div class="soc-dribble"><a href="https://www.dribbble.com/"></a></div>
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.plus.google.com/"><i class="fab fa-google-plus-g"></i></a>
+            <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.pinterest.com/"><i class="fab fa-pinterest-p"></i></a>
+            <a href="https://www.behance.net/"><i class="fab fa-behance"></i></a>
+            <a href="https://www.dribbble.com/"><i class="fab fa-dribbble"></i></a>
         </div>
     </div>
     <header class="wrapper">
-        <nav class="nav-top">
+        <div class="nav-top">
             <div class="logo"><img src="img/logo.png" alt="logo"></div>
-            <div class="nav-top-menu"> 
+            <nav class="nav-top-menu"> 
                 <a href="">HOME</a>
                 <a href="">PORTFOLIO</a> 
                 <a href="">BLOG</a>
@@ -39,22 +39,19 @@
                 <a href="">FEATURES</a>
                 <a href="">MEGA MENU</a> 
                 <a href="">CONTACT</a> 
-            </div>
+            </nav>
             <form class="search">
-                <input type="search" type="hidden">
-                <button type="submit"><img src="icons/search.png"></button>
+                <input type="search" id="mySearch">
+                <button type="submit"><i class="fas fa-search"></i></button>
             </form>
-        </nav>
+        </div>
     </header>
     <section class="section-main">
-        <div class="section-main-top"></div>
-        <div class="section-main-mid">
             <h1>MADE FOR DESIGNERS</h1>
             <p>Create your online portfolio in minutes with the professionally and lovingly designed REEN 
                 <br> website template. Customize yuor site with versatile and easy to use features.
             </p>
-            <a href="www.ya.ru">GET STARTED NOW</a>
-        </div>
+            <a href="http://www.ya.ru">GET STARTED NOW</a>
     </section>
     <main class="wrapper">
         <article class="features">
@@ -94,38 +91,42 @@
         </article>
     </main>
     <aside class="wrapper">
-            <div class="aside">
-                <div class="aside-top">
-                    <h2>Check out our latest works</h2>
-                    <p>Magnis modipsae que voloratati andige daepeditem quiate re porem aut labor.
-                    </p>
+        <div class="aside">
+            <div class="aside-top">
+                <h2>Check out our latest works</h2>
+                <p>Magnis modipsae que voloratati andige daepeditem quiate re porem aut labor.
+                </p>
+            </div>
+            <div class="aside-main">
+                <div class="aside-big-works">
+                    <div><a class="aside-works-left" href=""><img src="img/aside-work-left.jpg" alt=""></a></div>
+                    <p class="text-bold">Grand Motel gets an identity brushup 
+                    <br><span class="text-opacity">Identifty</span></p>
                 </div>
-                <div class="aside-main">
-                    <div class="aside-big-works">
-                        <div><a class="aside-works-left" href=""><img src="img/aside-work-left.jpg" alt=""></a></div>
-                        <p class="text-bold">Grand Motel gets an identity brushup 
-                        <br><span class="text-opacity">Identifty</span></p>
-                    </div>
-                    <div class="aside-big-works">
-                        <div><a class="aside-works-right" href=""><img src="img/aside-work-right.jpg" alt=""></a></div>
-                        <p class="text-bold">Fresh branding for a creative startup 
-                        <br><span class="text-opacity">Identifty</span></p>
-                    </div>
-                </div>
-                <div class="aside-small">
-                    <div class="aside-small-works">
-                        <div class="aside-bot-works-1"><a href=""></a></div>
-                        <div class="aside-bot-works-2"><a href=""></a></div>
-                        <div class="aside-bot-works-3"><a href=""></a></div>
-                        <div class="aside-bot-works-4"><a href=""></a></div>
-                    </div>
-                    <div class="aside-buttons">
-                        <a class="aside-button-1" href=""></a>
-                        <a class="aside-button-2" href=""></a>
-                        <a class="aside-button-3" href=""></a>
-                    </div>
+                <div class="aside-big-works">
+                    <div><a class="aside-works-right" href=""><img src="img/aside-work-right.jpg" alt=""></a></div>
+                    <p class="text-bold">Fresh branding for a creative startup 
+                    <br><span class="text-opacity">Identifty</span></p>
                 </div>
             </div>
+            <div class="aside-small">
+                <div class="aside-small-works">
+                        <!-- <div> -->
+                            <div class="aside-bot-works-1"><a href=""></a></div>
+                            <div class="aside-bot-works-2"><a href=""></a></div>
+                        <!-- </div>
+                        <div> -->
+                            <div class="aside-bot-works-3"><a href=""></a></div>
+                            <div class="aside-bot-works-4"><a href=""></a></div>
+                        <!-- </div> -->
+                </div>
+                <div class="aside-buttons">
+                    <a class="aside-button-1" href=""></a>
+                    <a class="aside-button-2" href=""></a>
+                    <a class="aside-button-3" href=""></a>
+                </div>
+            </div>
+        </div>
     </aside>
     <section class="wrapper section-bot">
         <div>
@@ -138,44 +139,44 @@
     <footer class="footer">
         <nav class="footer-nav">
             <div class="footer-top wrapper">
-                    <div class="footer-top-itm">
-                        <h4>WHO WE ARE</h4>
-                        <div class="footer-logo"><img src="img/logo.png" alt="logo" width="90px"><a href="index.html"></a></div>
-                        <p>Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam.</p> 
-                        <div><a href="">More about us<button class="icon-next"><img src="icons/next.png" alt=""></button></a></div>
+                <div class="footer-top-itm">
+                    <h4>WHO WE ARE</h4>
+                    <div class="footer-logo"><img src="img/logo.png" alt="logo" width="90px"><a href="index.html"></a></div>
+                    <p>Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam.</p> 
+                    <div><a href="">More about us<button class="icon-next"><img src="icons/next.png" alt=""></button></a></div>
+                </div>
+                <div class="footer-top-itm">
+                    <h4>LATEST WORKS</h4>
+                    <div class="footer-works">
+                        <div class="footer-works-itm-1"><a href=""><img src="img/footer-works-itm1.jpg" alt="" width="100%" height="90%"></a></div>
+                        <div class="footer-works-itm-2"><a href=""><img src="img/footer-works-itm2.jpg" alt="" width="100%" height="90%"></a></div>
+                        <div class="footer-works-itm-3"><a href=""><img src="img/footer-works-itm3.jpg" alt="" width="100%" height="90%"></a></div>
+                        <div class="footer-works-itm-4"><a href=""><img src="img/footer-works-itm4.jpg" alt="" width="100%" height="90%"></a></div>
                     </div>
-                    <div class="footer-top-itm">
-                        <h4>LATEST WORKS</h4>
-                        <div class="footer-works">
-                            <div class="footer-works-itm-1"><a href=""><img src="img/footer-works-itm1.jpg" alt="" width="100%" height="90%"></a></div>
-                            <div class="footer-works-itm-2"><a href=""><img src="img/footer-works-itm2.jpg" alt="" width="100%" height="90%"></a></div>
-                            <div class="footer-works-itm-3"><a href=""><img src="img/footer-works-itm3.jpg" alt="" width="100%" height="90%"></a></div>
-                            <div class="footer-works-itm-4"><a href=""><img src="img/footer-works-itm4.jpg" alt="" width="100%" height="90%"></a></div>
+                </div>
+                <div class="footer-top-itm">
+                    <h4>GET IN TOUCH</h4>
+                    <p>Doloreiur quia commolu ptatemp dolupta orepreum tibusam eumenis et consent accullignis dentibea autem inisita.</p>
+                    <address class="footer-contacts">
+                        <div class="footer-address-itms">
+                            <div class="contacts-bot-img1"></div><p>84 Street, City, State 24813</p>
                         </div>
-                    </div>
-                    <div class="footer-top-itm">
-                        <h4>GET IN TOUCH</h4>
-                        <p>Doloreiur quia commolu ptatemp dolupta orepreum tibusam eumenis et consent accullignis dentibea autem inisita.</p>
-                        <address class="footer-contacts">
-                            <div class="footer-address-itms">
-                                <div class="contacts-bot-img1"></div><p>84 Street, City, State 24813</p>
-                            </div>
-                            <div class="footer-address-itms">
-                                <div class="contacts-bot-img2"></div><p>+00 (123) 456 78 90</p>
-                            </div>
-                            <div class="footer-address-itms">
-                                    <div class="contacts-bot-img3"></div><p>info@reen.com</p>
-                            </div>
-                        </address>
-                    </div>
-                    <div class="footer-top-itm">
-                        <h4>FREE UPDATES</h4>
-                        <p>Conecus isure posae volor remped modis aut lor volor accabora incim resto explabo.</p>
-                        <form class="foot-subs">
-                            <input class="foot-mailform" type="email" placeholder="Enter your email address">
-                            <input class="foot-buttonsub" type="button" value="SUBSCRIBE"> 
-                        </form>
-                    </div>
+                        <div class="footer-address-itms">
+                            <div class="contacts-bot-img2"></div><p>+00 (123) 456 78 90</p>
+                        </div>
+                        <div class="footer-address-itms">
+                                <div class="contacts-bot-img3"></div><p>info@reen.com</p>
+                        </div>
+                    </address>
+                </div>
+                <div class="footer-top-itm">
+                    <h4>FREE UPDATES</h4>
+                    <p>Conecus isure posae volor remped modis aut lor volor accabora incim resto explabo.</p>
+                    <form class="foot-subs">
+                        <input class="foot-mailform" type="email" placeholder="Enter your email address">
+                        <input class="foot-buttonsub" type="button" value="SUBSCRIBE"> 
+                    </form>
+                </div>
             </div>
             <div class="footer-bot wrapper">
                 <p class="foot-bot-license">&copy; 2014 REEN. All rights reserved.</p>
