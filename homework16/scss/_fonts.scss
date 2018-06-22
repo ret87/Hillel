@@ -1,0 +1,32 @@
+$fonts-default: Arial, Veranda, sans-serif;
+
+@font-face {
+    font-family: 'Lato', $fonts-default;
+    font-style: normal;
+    font-weight: normal;
+    src: url("/homework16/fonts/Lato/Lato-Regular.ttf");
+}
+@font-face {
+    font-family: 'Lato-light', $fonts-default;
+    font-style: normal;
+    font-weight: normal;
+    src: url("/homework16/fonts/Lato/Lato-Light.ttf");
+}
+@font-face {
+    font-family: 'Ghotam', $fonts-default;
+    font-style: normal;
+    font-weight: normal;
+    src: url("/homework16/fonts/gotham/Gotham_Black.otf");
+}
+@font-face {
+    font-family: 'OpenSans-light', $fonts-default;
+    font-style: normal;
+    font-weight: normal;
+    src: url("/homework16/fonts/Open_Sans/OpenSans-Light.ttf");
+}
+@font-face {
+    font-family: 'OpenSans-reg', $fonts-default;
+    font-style: normal;
+    font-weight: normal;
+    src: url("/homework16/fonts/Open_Sans/OpenSans-Regular.ttf");
+}

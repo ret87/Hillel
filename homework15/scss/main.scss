@@ -1,0 +1,176 @@
+@import 'reset';
+@import 'vars'; 
+@import 'fonts';
+@import 'base';
+
+// feedback
+.feedback {
+    background: $bckrnd-thnd;
+}
+
+// main
+.main {
+    p {
+        font-family: 'OpenSans-light';
+        font-weight: 600;
+        font-size: .8rem;
+        letter-spacing: 1px;
+    }
+    .input-items {
+        border: none;
+        font-size: .8rem;
+    }
+}
+
+// banner
+.banner {
+    transform: translateY(50px);
+    a {
+        background: none;
+    }
+    ol {
+        transform: translateY(50px);
+    }
+    &-buttons li {
+        height: 12px;
+        width: 12px;
+        border: 2px solid $border-blocks;
+        border-radius: 100%;
+        &:first-child {
+            border: 2px solid $border-buttons-circle;
+        }
+    }
+}
+
+// aboutus
+.aboutus {
+    color: white;
+    background: $bckrnd-hightlight;
+    &-article {
+    margin-left: 4rem;
+    }
+    p {
+        line-height: 1rem;
+    }
+    button {
+        border: 2px solid $border-btn;
+    }
+}
+
+// price
+.price {
+    background: $bckrnd-thrd;
+    &-cost {
+    vertical-align: -10px;
+    font-size: 2rem;
+    }
+    &-dollar {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    }
+    &-middle {
+    background: $bckrnd-thnd;
+    
+        p {
+        color: white;
+        }
+    }
+    &-items {
+    border-top: 1px solid $border-blocks;
+    }
+}
+p.price-outside {
+    color: $cost-hightlight;
+}
+
+
+// process
+.process {
+    &-visual {
+    margin-left: 9%;
+    margin-right: 9%;
+    }
+    &-items {
+    max-width: 72px;
+    max-height: 60px;
+        &-arrow {
+        max-width: auto;
+        min-width: 80px;
+        max-height: 25px;
+        }
+    }
+}
+.arrow-bot-rev {
+    transform: translateY(5rem);
+}
+
+// cards
+.cards {
+    background: $bckrnd-hightlight;
+    &-photo {
+        height: 20%;
+    }
+    &-name {
+    color: $text-hightlight;
+    }
+}
+blockquote.cards-mesage {
+    &::before, 
+    &::after {
+        position: absolute; 
+        color: $internal-text; 
+        font-size: 2rem
+    }
+    &::before {
+    content: '\201c';
+    top: -12px; 
+    left: 0; 
+    }  
+    &::after {
+    content: '\201d';
+    bottom: 20px; 
+    right: 25px;
+    }
+}
+
+
+// contacts
+.contacts-items {
+    border: 1px solid $border-blocks;
+}
+.address {
+    background: url(/homework15/img/big_earth.jpg) center no-repeat;
+    background-size: 900px 449px, cover;
+    height: 500px;    
+    &-items {
+    background: #394b50;
+    width: 240px;
+    height: 240px;
+    }
+    p {
+        font-size: .8rem;
+        &:last-child {
+        color: $text-hightlight;
+        }
+    }
+}    
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 10px solid $border-blocks;
+}
+.nav-bot {
+    border-top: 1px solid $border-blocks;
+}
+.phone {
+    line-height: 2rem;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+// footer
+.footer {
+    background: $bckrnd-thnd;
+}

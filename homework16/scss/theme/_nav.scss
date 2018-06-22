@@ -1,0 +1,11 @@
+.nav a {
+    color: $link-text;
+    font-family: 'Lato';
+    font-size: .65rem;
+  }
+.nav-link {
+  @include hover-focus {
+    background: $primary;
+    color: white;
+  }
+}

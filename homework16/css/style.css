@@ -381,45 +381,6 @@ template {
   display: none !important;
 }
 
-h1 {
-  font-family: 'Ghotam';
-  font-weight: 900;
-  font-size: 2.1rem;
-}
-
-h2 {
-  font-family: 'Ghotam';
-  font-weight: 900;
-  font-size: 1.5rem;
-}
-
-h3 {
-  font-family: 'Lato-light';
-  font-weight: 900;
-  font-size: 1rem;
-}
-
-body {
-  background: white;
-}
-
-p {
-  font-family: 'OpenSans-reg';
-  font-weight: 500;
-  font-size: .8rem;
-}
-
-.services p,
-.process p,
-.cards p,
-.contacts p,
-.price p,
-.process p,
-.cards p,
-.contacts p {
-  color: #7b7b7b;
-}
-
 .btn {
   display: inline-block;
   font-weight: 400;
@@ -7204,6 +7165,45 @@ a.text-dark:hover, a.text-dark:focus {
 
 .invisible {
   visibility: hidden !important;
+}
+
+h1 {
+  font-family: 'Ghotam';
+  font-weight: 900;
+  font-size: 2.1rem;
+}
+
+h2 {
+  font-family: 'Ghotam';
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-family: 'Lato-light';
+  font-weight: 900;
+  font-size: 1rem;
+}
+
+body {
+  background: white;
+}
+
+p {
+  font-family: 'OpenSans-reg';
+  font-weight: 500;
+  font-size: .8rem;
+}
+
+.services p,
+.process p,
+.cards p,
+.contacts p,
+.price p,
+.process p,
+.cards p,
+.contacts p {
+  color: #7b7b7b;
 }
 
 .feedback {

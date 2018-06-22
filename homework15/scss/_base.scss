@@ -1,0 +1,68 @@
+h1 {
+    font-family: 'Ghotam';
+    font-weight: 900;
+    font-size: 2.1rem;
+    padding-bottom: .5rem; 
+}
+h2 {
+    font-family: 'Ghotam';
+    font-weight: 900;
+    font-size: 1.5rem;
+    padding-bottom: .5rem; 
+}
+h3 {  
+    font-family: 'Lato-light';
+    font-weight: 900;
+    font-size: 1rem;
+    padding-bottom: .5rem; 
+}
+body {
+    background: white;
+
+    p {
+    font-family: 'OpenSans-reg';
+    font-weight: 500;
+    font-size: .8rem;
+    padding-bottom: .5rem; 
+    }   
+}
+
+
+.services p, 
+.process p,
+.cards p,
+.contacts p,
+.price p,
+.process p,
+.cards p,
+.contacts p, {
+    color: $internal-text;
+}
+a {
+    color: $link-text;
+    font-family: 'Lato';
+    font-size: .65rem;
+    &:hover {
+        background: $bckrnd-hover;
+        color: white;
+    }
+}
+.btn {
+    background: $bckrnd-hightlight;
+    border: 1px solid $border-btn;
+    font-size: .8rem;
+
+    &:hover {
+        background: $bckrnd-hover;
+        border-color: $border-hover;   
+    }       
+    &:focus {
+        border: none;
+        box-shadow: none;
+    }
+    &-primary:active {
+        border: none !important;
+        box-shadow: none !important;
+        background: none !important;
+    }
+}    
