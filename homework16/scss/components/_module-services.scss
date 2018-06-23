@@ -1,0 +1,51 @@
+.services {
+    padding: 195px 0 137px 0;
+    
+    h3 {
+        margin: 0 0 13px 0;
+    }
+    &-main {
+        padding-top: 87px;        
+        p {
+            font-size: .9rem;
+            letter-spacing: .3px;
+        }    
+    }
+    &-clock {
+        padding: 0 0 55px 0;
+        .clock-img {
+            padding: 0;
+            margin: 0 23px 0 0;
+        }    
+    }
+    &-studi{
+        padding: 0 0 58px 0;
+        .studi-img {
+            padding: 0;
+            margin: 0 5px 0 0;
+        }
+    }
+    &-code {
+        .code-img {
+            padding: 0;
+            margin: 0 22px 0 0;
+        }
+    }
+    &-respons {
+        padding: 0 0 55px 0;
+        .respons-img {
+            margin: 0 0 0 17px;
+        }
+    }
+    &-rocket {
+        padding: 0 0 58px 0;
+        .rocket-img {
+            margin: 0 0 0 17px;
+        }
+    }
+    &-dollar {
+        .dollar-img {
+            margin: 0 0 0 31px;
+        }
+    }
+}
