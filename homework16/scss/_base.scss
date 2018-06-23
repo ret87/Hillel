@@ -21,6 +21,11 @@ p {
     font-weight: 500;
     font-size: .8rem;
     }   
+a {
+    color: $link-text;
+    font-family: 'Lato';
+    font-size: 14px;
+}
     
 .services p, 
 .cards p,

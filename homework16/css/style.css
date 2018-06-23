@@ -2,6 +2,7 @@
   font-family: "Lato", Arial, Veranda, sans-serif;
   font-style: normal;
   font-weight: normal;
+  font-size: 20px;
   src: url("/homework16/fonts/Lato/Lato-Regular.ttf");
 }
 @font-face {
@@ -947,6 +948,10 @@ input[type="button"].btn-block {
 .btn-primary {
   font-size: 0.8rem;
 }
+.btn-primary:hover, .btn-primary:focus {
+  background: #ffc155;
+  color: white;
+}
 
 .input-group {
   position: relative;
@@ -1664,15 +1669,10 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   display: block;
 }
 
-.nav a {
-  color: #7b7b7b;
-  font-family: 'Lato';
-  font-size: .65rem;
-}
-
 .nav-link:hover, .nav-link:focus {
   background: #ffc155;
   color: white;
+  padding: 6px 18px;
 }
 
 .navbar {
@@ -7195,6 +7195,12 @@ p {
   font-size: .8rem;
 }
 
+a {
+  color: #7b7b7b;
+  font-family: 'Lato';
+  font-size: 14px;
+}
+
 .services p,
 .cards p,
 .contacts p,
@@ -7203,6 +7209,16 @@ p {
 .cards p,
 .contacts p {
   color: #7b7b7b;
+}
+
+.header-logo {
+  margin: 21px 0;
+}
+.header-menu {
+  margin: 18px 0px;
+}
+.header-menu a {
+  padding: 0 16px 0 20px;
 }
 
 .feedback {
