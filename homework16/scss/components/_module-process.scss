@@ -1,0 +1,19 @@
+// process
+.process {
+    &-visual {
+    margin-left: 9%;
+    margin-right: 9%;
+    }
+    &-items {
+    max-width: 72px;
+    max-height: 60px;
+        &-arrow {
+        max-width: auto;
+        min-width: 80px;
+        max-height: 25px;
+        }
+    }
+}
+.arrow-bot-rev {
+    transform: translateY(5rem);
+}

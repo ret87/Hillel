@@ -1,0 +1,44 @@
+// feedback
+.feedback {
+    padding-top: 104px;
+    background: $bckrnd-secondary;
+}
+
+// main
+.main {
+    &-top p {
+        font-family: 'OpenSans-light';
+        font-weight: 600;
+        font-size: 1rem;
+        letter-spacing: .3px;
+        margin-bottom: 29px;
+    }
+    &-contact {
+        margin-left: 25px;
+        margin-bottom: 6px;
+        .contact-top {
+            margin-right: 9px;
+            .top-items {
+                padding: 4px 2px;
+            }
+        }
+    }
+}
+.banner {
+    transform: translateY(62px);
+    a {
+        background: none;
+    }
+    ol {
+        transform: translateY(65px);
+    }
+    &-buttons li {
+        height: 15px;
+        width: 15px;
+        border: 2px solid $border-blocks;
+        border-radius: 100%;
+        &:first-child {
+            border: 2px solid $border-buttons-circle;
+        }
+    }
+}
