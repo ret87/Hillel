@@ -8,33 +8,35 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="row container-fluid justify-content-center no-gutters">
+    <div class="container-fluid">
         <!-- py-3 -->
-        <header class="col-9 row justify-content-between">
-            <div>
-                <img src="icons/Shape.png" alt="it`s logo" width="35" height="35">
+        <header class="container">
+            <div class="row justify-content-between">
+                <div class="">
+                    <img src="icons/Shape.png" alt="it`s logo" width="35" height="35">
+                </div>
+                <nav class="nav nav-pills nav-justified">
+                    <!-- px-3 py-2 my-2 -->
+                    <a class="nav-link" href="#">HOME</a>
+                    <!-- px-3 py-2 my-2 -->
+                    <a class="nav-link" href="#">SERVICE</a>
+                    <!-- px-3 py-2 my-2 -->
+                    <a class="nav-link" href="#">ABOUT US</a>
+                    <!-- px-3 py-2 my-2 -->
+                    <a class="nav-link" href="#">PRICING TABLE</a>
+                    <!-- px-3 py-2 my-2 -->
+                    <a class="nav-link" href="#">HOW IT WORK</a>
+                    <!-- px-3 py-2 my-2 -->
+                    <a class="nav-link" href="#">HAPPY CLIENTS</a>
+                    <!-- px-3 py-2 my-2 -->
+                    <a class="nav-link" href="#">CONTACT US</a>
+                </nav>
             </div>
-            <nav class="row nav nav-pills nav-justified nav-top">
-                 <!-- px-3 py-2 my-2 -->
-                <a class="nav-link" href="#">HOME</a>
-                 <!-- px-3 py-2 my-2 -->
-                <a class="nav-link" href="#">SERVICE</a>
-                 <!-- px-3 py-2 my-2 -->
-                <a class="nav-link" href="#">ABOUT US</a>
-                 <!-- px-3 py-2 my-2 -->
-                <a class="nav-link" href="#">PRICING TABLE</a>
-                 <!-- px-3 py-2 my-2 -->
-                <a class="nav-link" href="#">HOW IT WORK</a>
-                 <!-- px-3 py-2 my-2 -->
-                <a class="nav-link" href="#">HAPPY CLIENTS</a>
-                 <!-- px-3 py-2 my-2 -->
-                <a class="nav-link" href="#">CONTACT US</a>
-            </nav>
         </header>
     </div>
-    <div class="row container-fluid justify-content-center no-gutters feedback">
+    <div class="container-fluid feedback">
         <!-- pt-5 -->
-        <main class="col-9">
+        <main class="container">
             <!-- pt-5 -->
             <div class="text-center text-white">
                 <!-- mb-0 -->
@@ -104,9 +106,9 @@
         </main>
     </div>    
     <!-- p-5 -->
-    <div class="row container-fluid justify-content-center no-gutters">
+    <div class="container-fluid services">
         <!-- pt-5 mt-5  -->
-        <article class="col-9 services">
+        <article class="container">
             <!-- pb-5 -->
             <div class="text-center">
                 <!-- mb-0 -->
@@ -191,10 +193,11 @@
         </article>
     </div>
     <!-- m-0 -->
-    <figure class="aboutus">
+    <div class="aboutus">
         <div class="row no-gutters">
-            <div class="col-md-6"><img class="" src="img/bckrnd_table.jpg" width="100%" height="100%" alt=""></div>
-            <div class="col-md-6 row align-items-center">
+            <div class="col-md-6">
+                <img class="" src="img/bckrnd_table.jpg" width="100%" height="100%" alt=""></div>
+            <div class="col-md-6">
                 <div class="aboutus-article">
                     <!-- px-0 -->
                     <h2 class="col-9">ABOUT US</h2>
@@ -212,69 +215,71 @@
                 </div>
             </div>    
         </div>
-    </figure>
+    </div>
     <!-- py-5 -->
-    <div class="row container-fluid justify-content-center no-gutters price">    
+    <div class="container-fluid price">    
         <!-- py-5 -->
-        <section class="col-9 row text-center">
+        <section class="container text-center">
             <h2 class="col-12">CHOOS YOUR PRICE</h2>
             <!-- m-0 pb-5 -->
             <p class="col-12">Lorem Ipsum is simply dummy text of the printing typesetting .</p>
             <!-- my-4 py-4 -->
-            <div class="col-4 bg-white">
-                <h3>BASIC PLAN</h3>
-                <!-- p-0 m-0 -->
-                <p class="price-outside price-dollar">$<span class="price-cost">22</span></p>
-                <p>PER MONTH</p>
-                 <!-- m-0 py-1 -->
-                <p class="price-items">1 ACCOUNT</p>
-                 <!-- m-0 py-1 -->
-                <p class="price-items">8 HOUR SUPPORT</p>
-                 <!-- m-0 py-1 -->
-                <p class="price-items">CUSTOM CLOUD SERVICES</p>
-                <!-- my-3 -->
-                <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">GET STARTED</button>            
-            </div>
-            <!-- py-5  -->
-            <div class="col-4price-middle">
-                <h3 class="text-white">PREMIUM PLAN</h3>
-                <!-- p-0 m-0 -->
-                <p class="price-dollar">$<span class="price-cost">42</span></p>
-                <p>PER MONTH</p>
-                 <!-- m-0 py-1 -->
-                <p class="price-items">8 ACCOUNT</p>
-                 <!-- m-0 py-1 -->
-                <p class="price-items">24 HOUR SUPPORT</p>
-                 <!-- m-0 py-1 -->
-                <p class="price-items">CUSTOM CLOUD SERVICES</p>
-                <!-- my-3 -->
-                <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">GET STARTED</button>            
-            </div>
-            <!-- my-4 py-4 -->
-            <div class="col-4 bg-white">
-                <h3>GOLD PLAN</h3>
-                <!-- p-0 m-0 -->
-                <p class="price-outside price-dollar">$<span class="price-cost">62</span></p>
-                <p>PER MONTH</p>
-                 <!-- m-0 py-1 -->
-                <p class="price-items">2 ACCOUNT</p>
-                 <!-- m-0 py-1 -->
-                <p class="price-items">100MB STORAGE</p>
-                 <!-- m-0 py-1 -->
-                <p class="price-items">CUSTOM CLOUD SERVICES</p>
-                <!-- my-3 -->
-                <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">GET STARTED</button>            
+            <div class="row justify-content-between">
+                <div class="col-4 bg-white">
+                    <h3>BASIC PLAN</h3>
+                    <!-- p-0 m-0 -->
+                    <p class="price-outside price-dollar">$<span class="price-cost">22</span></p>
+                    <p>PER MONTH</p>
+                    <!-- m-0 py-1 -->
+                    <p class="price-items">1 ACCOUNT</p>
+                    <!-- m-0 py-1 -->
+                    <p class="price-items">8 HOUR SUPPORT</p>
+                    <!-- m-0 py-1 -->
+                    <p class="price-items">CUSTOM CLOUD SERVICES</p>
+                    <!-- my-3 -->
+                    <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">GET STARTED</button>            
+                </div>
+                <!-- py-5  -->
+                <div class="col-4price-middle">
+                    <h3 class="text-white">PREMIUM PLAN</h3>
+                    <!-- p-0 m-0 -->
+                    <p class="price-dollar">$<span class="price-cost">42</span></p>
+                    <p>PER MONTH</p>
+                    <!-- m-0 py-1 -->
+                    <p class="price-items">8 ACCOUNT</p>
+                    <!-- m-0 py-1 -->
+                    <p class="price-items">24 HOUR SUPPORT</p>
+                    <!-- m-0 py-1 -->
+                    <p class="price-items">CUSTOM CLOUD SERVICES</p>
+                    <!-- my-3 -->
+                    <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">GET STARTED</button>            
+                </div>
+                <!-- my-4 py-4 -->
+                <div class="col-4 bg-white">
+                    <h3>GOLD PLAN</h3>
+                    <!-- p-0 m-0 -->
+                    <p class="price-outside price-dollar">$<span class="price-cost">62</span></p>
+                    <p>PER MONTH</p>
+                    <!-- m-0 py-1 -->
+                    <p class="price-items">2 ACCOUNT</p>
+                    <!-- m-0 py-1 -->
+                    <p class="price-items">100MB STORAGE</p>
+                    <!-- m-0 py-1 -->
+                    <p class="price-items">CUSTOM CLOUD SERVICES</p>
+                    <!-- my-3 -->
+                    <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">GET STARTED</button>            
+                </div>
             </div>
         </section>
     </div>       
     <!-- py-5 -->
-    <div class="row container-fluid justify-content-center no-gutters">
+    <div class="container-fluid process">
         <!-- py-5 -->
-        <section class="col-9 text-center process">
+        <section class="container text-center">
             <h2 class="">HOW IT WORKS</h2>
-            <p class="m-0 p-0">Lorem Inspum is simply dummy Business industry</p>
+            <p class="">Lorem Inspum is simply dummy Business industry</p>
             <!-- my-4 pb-4 -->
-            <div class="row process-visual justify-content-between">
+            <div class="row justify-content-between process-visual">
                 <!-- px-0 mt-4 -->
                 <img class="img-fluid col-1 process-items" src="icons/headphone.png" width="72px" height="60px" alt="">
                 <!-- px-0 -->
@@ -325,8 +330,8 @@
         </section>
     </div>
     <!-- py-5 -->
-    <div class="row container-fluid justify-content-center no-gutters cards">
-        <aside class="col-9">
+    <div class="container-fluid cards">
+        <aside class="container">
             <!-- py-4 -->
             <div class="text-center text-white">
                 <!-- pt-4 -->
@@ -410,8 +415,8 @@
         </aside>
     </div>
     <!-- py-5 -->
-    <div class="row container-fluid justify-content-center no-gutters contacts">
-        <section class="col-9">
+    <div class="container-fluid contacts">
+        <section class="container">
             <div class="text-center">
                 <!-- m-0 -->
                 <h2 class="">NEWSLETTER</h2>
@@ -441,7 +446,7 @@
             </form>
             <!-- py-5 my-3 -->
             <div class="row flex-column address">
-                <div class="address-items rounded-circle text-center align-self-center">
+                <div class="rounded-circle text-center align-self-center address-items">
                     <!-- pt-5 mb-1  -->
                     <h3 class="text-white">ADDRESS</h3>
                     <!-- pt-1 m-0 -->
@@ -459,7 +464,7 @@
                 <img class="col-auto align-self-center" src="icons/Shape_mini.png" alt="">
             </div>
             <!-- pt-5 -->
-            <div class="d-flex justify-content-center nav-bot">
+            <div class="d-flex nav-bot">
                 <nav class="nav nav-pills nav-justified">
                     <a class="nav-link" href="#">HOME</a>
                     <a class="nav-link" href="#">SERVICE</a>
@@ -491,10 +496,9 @@
         </section>
     </div>
     <!-- py-3 -->
-    <div class="row justify-content-center no-gutters footer">
-        <footer class="text-center">
-            <!-- p-0 m-0  -->
-            <p class="text-white text-bold">All contents © copyright 2014 Business Theme. All rights reserved Designed by : akhilwebfolio</p>
+    <div class="container-fluid footer">
+        <footer class="container text-center">
+            <p class="text-white m-0">All contents © copyright 2014 Business Theme. All rights reserved Designed by : akhilwebfolio</p>
         </footer>
     </div>
 
