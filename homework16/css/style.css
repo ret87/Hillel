@@ -7174,7 +7174,7 @@ body {
 
 h1 {
   font-family: 'Ghotam';
-  font-weight: 1000;
+  font-weight: 900;
   font-size: 2.1rem;
   letter-spacing: .8px;
   margin: 0;
@@ -7183,7 +7183,9 @@ h1 {
 h2 {
   font-family: 'Ghotam';
   font-weight: 900;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  margin: -4px 0 0 0;
 }
 
 h3 {
@@ -7200,7 +7202,7 @@ a {
 
 p {
   font-family: 'OpenSans-reg';
-  font-weight: 500;
+  font-weight: normal;
   font-size: .8rem;
 }
 
@@ -7212,6 +7214,12 @@ p {
 .cards p,
 .contacts p {
   color: #7b7b7b;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  margin: 0;
+  letter-spacing: .2px;
 }
 
 .header-logo {
@@ -7231,9 +7239,7 @@ p {
 
 .main-top p {
   font-family: 'OpenSans-light';
-  font-weight: 600;
-  font-size: 1rem;
-  letter-spacing: .3px;
+  font-size: 1.1rem;
   margin-bottom: 29px;
 }
 .main-contact {
@@ -7266,6 +7272,53 @@ p {
 }
 .banner-buttons li:first-child {
   border: 2px solid #709dca;
+}
+
+.services {
+  padding: 195px 0 137px 0;
+}
+.services h3 {
+  margin: 0 0 13px 0;
+}
+.services-main {
+  padding-top: 87px;
+}
+.services-main p {
+  font-size: .9rem;
+  letter-spacing: .3px;
+}
+.services-clock {
+  padding: 0 0 55px 0;
+}
+.services-clock .clock-img {
+  padding: 0;
+  margin: 0 23px 0 0;
+}
+.services-studi {
+  padding: 0 0 58px 0;
+}
+.services-studi .studi-img {
+  padding: 0;
+  margin: 0 5px 0 0;
+}
+.services-code .code-img {
+  padding: 0;
+  margin: 0 22px 0 0;
+}
+.services-respons {
+  padding: 0 0 55px 0;
+}
+.services-respons .respons-img {
+  margin: 0 0 0 17px;
+}
+.services-rocket {
+  padding: 0 0 58px 0;
+}
+.services-rocket .rocket-img {
+  margin: 0 0 0 17px;
+}
+.services-dollar .dollar-img {
+  margin: 0 0 0 31px;
 }
 
 .aboutus {
