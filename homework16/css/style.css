@@ -7325,14 +7325,24 @@ p {
   color: white;
   background: #ffc155;
 }
+.aboutus h2 {
+  font-weight: bolder;
+}
 .aboutus-article {
+  margin-top: 160px;
   margin-left: 4rem;
 }
-.aboutus p {
-  line-height: 1rem;
+.aboutus-article p {
+  margin-top: 18px;
+  padding-right: 0;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: .3px;
 }
 .aboutus button {
-  border: 2px solid #ffc155;
+  margin: 13px 0 0 16px;
+  padding: 10px 31px;
+  border: 1px solid #e7ad48;
 }
 
 .price {

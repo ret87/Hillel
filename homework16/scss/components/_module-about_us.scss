@@ -2,13 +2,23 @@
 .aboutus {
     color: white;
     background: $bckrnd-hightlight;
-    &-article {
-    margin-left: 4rem;
+    h2 {
+        font-weight: bolder;
     }
-    p {
-        line-height: 1rem;
+    &-article {
+    margin-top: 160px;
+    margin-left: 4rem;
+        p {
+            margin-top: 18px; 
+            padding-right: 0;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            letter-spacing: .3px;
+        }
     }
     button {
-        border: 2px solid $primary;
+        margin: 13px 0 0 16px;
+        padding: 10px 31px;
+        border: 1px solid #e7ad48;
     }
 }
