@@ -7494,7 +7494,7 @@ p.price-outside {
 }
 
 .address {
-  background: url(/homework16/img/big_earth.jpg) center no-repeat;
+  background: url(/img/big_earth.jpg) center no-repeat;
   background-size: 900px 449px, cover;
   height: 500px;
 }
@@ -7531,4 +7531,5 @@ p.price-outside {
 .footer {
   background: #709dca;
 }
+
 /*# sourceMappingURL=style.css.map */
