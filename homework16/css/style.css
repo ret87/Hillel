@@ -7489,43 +7489,83 @@ p.price-outside {
   content: '\201e';
 }
 
+.contacts {
+  padding-top: 153px;
+}
+.contacts-subscribe {
+  margin: 34px 9.3% 95px 9%;
+}
 .contacts-items {
+  padding-top: 4px;
+  padding-bottom: 4px;
   border: 1px solid #aaa9a9;
 }
-
-.address {
+.contacts-items-name {
+  width: 33%;
+}
+.contacts-items-mail {
+  width: 41.5%;
+}
+.contacts-button {
+  padding-left: 52px;
+  padding-right: 52px;
+}
+.contacts .address {
+  margin-bottom: 67px;
   background: url(/img/big_earth.jpg) center no-repeat;
   background-size: 900px 449px, cover;
   height: 500px;
 }
-.address-items {
+.contacts .address-items {
   background: #394b50;
-  width: 240px;
-  height: 240px;
+  width: 279px;
+  height: 279px;
 }
-.address p {
-  font-size: .8rem;
+.contacts .address h3 {
+  margin-top: 60px;
+  margin-bottom: 15px;
+  font-weight: normal;
 }
-.address p:last-child {
+.contacts .address p {
+  line-height: .6rem;
+  font-size: .9rem;
+  letter-spacing: .3px;
+}
+.contacts .address p:last-child {
+  letter-spacing: .7px;
+  line-height: .3rem;
   color: #ffc155;
 }
-
-.triangle-down {
+.contacts .address-triangle {
   width: 0;
   height: 0;
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
   border-top: 10px solid #394b50;
 }
-
-.nav-bot {
+.contacts .address-logo {
+  margin-top: 9px;
+}
+.contacts .nav-bot {
+  padding-top: 54px;
   border-top: 1px solid #aaa9a9;
 }
-
-.phone {
+.contacts-phone {
+  margin-top: 10px;
+}
+.contacts-phone .phone-img {
+  margin-top: 6px;
+  padding: 0 0 0 5px;
+}
+.contacts-phone .phone-number {
+  padding: 0;
+  margin-left: 5px;
   line-height: 2rem;
-  font-size: 2rem;
-  font-weight: bolder;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.contacts-logo-items {
+  margin: 0 8px;
 }
 
 .footer {
