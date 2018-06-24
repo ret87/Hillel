@@ -1,19 +1,40 @@
 // process
 .process {
+    padding-top: 152px;
+    padding-bottom: 154px;
     &-visual {
-    margin-left: 9%;
-    margin-right: 9%;
+    margin-top: 105px;
+    margin-left: 7%;
+    margin-right: 7%;
     }
     &-items {
-    max-width: 72px;
+    max-width: auto;
     max-height: 60px;
+    margin-bottom: 98px;
         &-arrow {
+        margin-top: -30px;
         max-width: auto;
         min-width: 80px;
-        max-height: 25px;
+        max-height: 30px;
         }
     }
-}
-.arrow-bot-rev {
-    transform: translateY(5rem);
+    .arrow-bot-rev {
+        transform: translate(14px, 96px);
+    }        
+    &-steps {
+        width: 23%;
+        h3 {
+            font-size: 1.3rem;
+            margin-bottom: 21px; 
+        }
+        p {
+            padding: 0 8px;
+            font-size: .9rem;
+            letter-spacing: .5px;
+        }
+    }
+    &-button {
+        padding: 12px 20px;
+        margin-top: 70px;
+    }
 }

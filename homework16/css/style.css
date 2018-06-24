@@ -7402,23 +7402,45 @@ p.price-outside {
   color: #ffc155;
 }
 
+.process {
+  padding-top: 152px;
+  padding-bottom: 154px;
+}
 .process-visual {
-  margin-left: 9%;
-  margin-right: 9%;
+  margin-top: 105px;
+  margin-left: 7%;
+  margin-right: 7%;
 }
 .process-items {
-  max-width: 72px;
+  max-width: auto;
   max-height: 60px;
+  margin-bottom: 98px;
 }
 .process-items-arrow {
+  margin-top: -30px;
   max-width: auto;
   min-width: 80px;
-  max-height: 25px;
+  max-height: 30px;
 }
-
-.arrow-bot-rev {
-  -webkit-transform: translateY(5rem);
-          transform: translateY(5rem);
+.process .arrow-bot-rev {
+  -webkit-transform: translate(14px, 96px);
+          transform: translate(14px, 96px);
+}
+.process-steps {
+  width: 23%;
+}
+.process-steps h3 {
+  font-size: 1.3rem;
+  margin-bottom: 21px;
+}
+.process-steps p {
+  padding: 0 8px;
+  font-size: .9rem;
+  letter-spacing: .5px;
+}
+.process-button {
+  padding: 12px 20px;
+  margin-top: 70px;
 }
 
 .cards {
@@ -7488,4 +7510,5 @@ p.price-outside {
 .footer {
   background: #709dca;
 }
+
 /*# sourceMappingURL=style.css.map */
