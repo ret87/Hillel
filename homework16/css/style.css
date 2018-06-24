@@ -7346,24 +7346,56 @@ p {
 }
 
 .price {
+  padding-top: 128px;
+  padding-bottom: 165px;
   background: #e7edf3;
 }
-.price-cost {
-  vertical-align: -10px;
-  font-size: 2rem;
+.price-plans {
+  margin-top: 45px;
 }
-.price-dollar {
-  font-size: 1.5rem;
-  line-height: 2rem;
+.price h3 {
+  font-size: 1.41rem;
+  padding-bottom: 20px;
+}
+.price-plans p {
+  letter-spacing: 1px;
+}
+.price-first, .price-thrd {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.price-first h3, .price-thrd h3 {
+  margin-top: 52px;
 }
 .price-middle {
   background: #709dca;
+  padding-bottom: 75px;
 }
 .price-middle p {
   color: white;
 }
+.price-middle h3 {
+  margin-top: 83px;
+}
+.price-cost {
+  vertical-align: -15px;
+  font-size: 4rem;
+}
+.price-dollar {
+  font-size: 2.5rem;
+  line-height: 2rem;
+}
+.price .end-toppart {
+  margin-bottom: 28px;
+}
 .price-items {
   border-top: 1px solid #aaa9a9;
+  padding-top: 11px;
+  margin-bottom: 9px;
+}
+.price-button {
+  padding: 10px 20px;
+  margin-top: 22px;
 }
 
 p.price-outside {
@@ -7456,5 +7488,4 @@ p.price-outside {
 .footer {
   background: #709dca;
 }
-
 /*# sourceMappingURL=style.css.map */
