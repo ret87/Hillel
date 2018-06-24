@@ -1,6 +1,7 @@
 // contacts
 .contacts {
     padding-top: 153px;
+    padding-bottom: 48px;
     &-subscribe {
         margin: 34px 9.3% 95px 9%;
     }
@@ -77,8 +78,10 @@
         margin: 0 8px;
     }
 }
-    
-    // footer
-    .footer {
+// footer
+.footer {
+    padding: 13px 0;
     background: $bckrnd-secondary;
+    font-size: .9rem;
+    letter-spacing: .8px;
 }

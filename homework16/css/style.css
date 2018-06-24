@@ -7491,6 +7491,7 @@ p.price-outside {
 
 .contacts {
   padding-top: 153px;
+  padding-bottom: 48px;
 }
 .contacts-subscribe {
   margin: 34px 9.3% 95px 9%;
@@ -7569,7 +7570,9 @@ p.price-outside {
 }
 
 .footer {
+  padding: 13px 0;
   background: #709dca;
+  font-size: .9rem;
+  letter-spacing: .8px;
 }
-
 /*# sourceMappingURL=style.css.map */
