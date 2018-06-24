@@ -1,13 +1,36 @@
 // cards
 .cards {
+    padding-top: 136px;
+    padding-bottom: 136px;
     background: $bckrnd-hightlight;
+    &-items {
+        margin-top: 54px;
+        &-left, 
+        &-right {
+            padding: 44px 20px 32px 0;
+            margin-bottom: 20px;
+        }
+        &-left {
+            margin-right: 3px;
+        }
+        &-right {
+            margin-left: 3px;
+        }
+    }
     &-photo {
-        height: 20%;
+        margin-left: 30px;
+        width: 100%;
+        max-width: 120px;
+        height: auto;
     }
     &-name {
     color: $text-hightlight;
     }
     &-mesage {
+        font-size: .9rem;
+        letter-spacing: .2px;
+        line-height: 1.4rem;
+        margin-bottom: 20px;
         &::before, 
         &::after {
             position: absolute; 
@@ -15,14 +38,11 @@
             font-size: 2rem
         }
         &::before {
-            content: '\201c';
-            top: -12px; 
-            left: 0; 
+            content: '\201c'; 
+            left: -20px; 
         }  
         &::after {
-            content: '\201d';
-            bottom: 20px; 
-            right: 25px;
+            content: '\201e';
         }
     }
 }
