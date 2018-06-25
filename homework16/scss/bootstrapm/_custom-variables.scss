@@ -11,15 +11,15 @@ $primary:       #ffc155;
 $theme-colors: (
   "primary":    $primary,
 );
+
 // button`s color text
 $yiq-contrasted-threshold:  255;
 
 // text and fonts
+$fonts-default: Arial, Veranda, sans-serif;
 $internal-text: #7b7b7b;
 $link-text: $internal-text;
-$text-hightlight: $primary;
 $font-family-sans-serif: 'OpenSans-reg', $fonts-default;
-$price-text: $primary;
 
 // input colors
 $input-focus-color: $internal-text;
@@ -27,13 +27,3 @@ $input-focus-border-color: $input-focus-color;
 $input-box-shadow: $input-focus-color; 
 $input-focus-box-shadow: $input-focus-color;
 $input-focus-box-shadow: $input-focus-color;
-
-// background
-$bckrnd-hightlight: $primary;
-$bckrnd-secondary: #709dca;
-$bckrnd-price: #e7edf3;
-$bckrnd-address: #394b50;
-
-// border-colors
-$border-blocks: #aaa9a9;
-$border-buttons-circle: $bckrnd-secondary;
