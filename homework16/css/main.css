@@ -175,19 +175,19 @@ p {
   color: white;
   background: #ffc155;
 }
-.aboutus h2 {
-  font-weight: bolder;
+.aboutus-img {
+  max-height: 623px;
 }
 .aboutus-article {
-  margin-top: 160px;
-  margin-left: 4rem;
+  margin-top: 157px;
+  margin-left: 4.1rem;
 }
 .aboutus-article p {
-  margin-top: 18px;
+  margin-top: 16px;
   padding-right: 0;
-  font-size: 1rem;
+  font-size: .84rem;
   line-height: 1.5rem;
-  letter-spacing: .3px;
+  letter-spacing: .8px;
 }
 .aboutus-button {
   margin: 13px 0 0 16px;
