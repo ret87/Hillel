@@ -11,12 +11,12 @@ h1 {
 h2 {
     font-family: 'Ghotam', $fonts-default;
     font-weight: 900;
-    font-size: 1.72rem;
+    font-size: 1.7rem;
     margin: 0; 
 }
 h3 {  
     font-family: 'Lato-light', $fonts-default;
-    font-weight: 600;
+    font-weight: 300;
     font-size: .95rem;
 }
 a {
@@ -42,5 +42,5 @@ p {
 .subtitle {
     font-size: 1.04rem;
     margin: 0;
-    letter-spacing: .1px;
+    letter-spacing: .3px;
 }

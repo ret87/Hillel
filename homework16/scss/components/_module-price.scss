@@ -1,18 +1,19 @@
 // price
 .price {
-    padding-top: 128px;
+    padding-top: 130px;
     padding-bottom: 165px;
     background: $bckrnd-price;
     &-plans {
-        margin-top: 45px;
+        margin-top: 50px;
     }
     h3 {
         font-size: 1.41rem;
+        letter-spacing: 1px;
         padding-bottom: 20px;
     }
     &-plans {
             p {
-        letter-spacing: 1px;
+        letter-spacing: .4px;
         }
     }
     &-first,
@@ -25,7 +26,7 @@
     }
     &-middle {
     background: $bckrnd-secondary;
-    padding-bottom: 75px;        
+    padding-bottom: 77px;        
         p {
         color: white;
         }
@@ -42,7 +43,7 @@
     line-height: 2rem;
     }
     .end-toppart {
-        margin-bottom: 28px;
+        margin-bottom: 25px;
     }
     &-items {
     border-top: 1px solid $border-blocks;

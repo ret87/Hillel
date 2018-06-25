@@ -43,13 +43,13 @@ h1 {
 h2 {
   font-family: "Ghotam", Arial, Veranda, sans-serif;
   font-weight: 900;
-  font-size: 1.72rem;
+  font-size: 1.7rem;
   margin: 0;
 }
 
 h3 {
   font-family: "Lato-light", Arial, Veranda, sans-serif;
-  font-weight: 600;
+  font-weight: 300;
   font-size: .95rem;
 }
 
@@ -78,7 +78,7 @@ p {
 .subtitle {
   font-size: 1.04rem;
   margin: 0;
-  letter-spacing: .1px;
+  letter-spacing: .3px;
 }
 
 .header-logo {
@@ -176,14 +176,14 @@ p {
   background: #ffc155;
 }
 .aboutus-img {
-  max-height: 623px;
+  max-height: 624px;
 }
 .aboutus-article {
   margin-top: 157px;
   margin-left: 4.1rem;
 }
 .aboutus-article p {
-  margin-top: 16px;
+  margin-top: 18px;
   padding-right: 0;
   font-size: .84rem;
   line-height: 1.5rem;
@@ -196,19 +196,20 @@ p {
 }
 
 .price {
-  padding-top: 128px;
+  padding-top: 130px;
   padding-bottom: 165px;
   background: #e7edf3;
 }
 .price-plans {
-  margin-top: 45px;
+  margin-top: 50px;
 }
 .price h3 {
   font-size: 1.41rem;
+  letter-spacing: 1px;
   padding-bottom: 20px;
 }
 .price-plans p {
-  letter-spacing: 1px;
+  letter-spacing: .4px;
 }
 .price-first, .price-thrd {
   margin-top: 30px;
@@ -219,7 +220,7 @@ p {
 }
 .price-middle {
   background: #709dca;
-  padding-bottom: 75px;
+  padding-bottom: 77px;
 }
 .price-middle p {
   color: white;
@@ -236,7 +237,7 @@ p {
   line-height: 2rem;
 }
 .price .end-toppart {
-  margin-bottom: 28px;
+  margin-bottom: 25px;
 }
 .price-items {
   border-top: 1px solid #aaa9a9;
