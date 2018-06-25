@@ -16,16 +16,16 @@
         margin-bottom: 6px;
         .contact-top {
             margin-right: 8px;
-            .top-items {
-                padding: 5px 4px;
-            }
+            // &-items {
+            //     padding: 5px 4px;
+            // }
         }
     }
 }
 .banner {
-    transform: translateY(62px);
+    transform: translateY(61px);
     ol {
-        transform: translateY(65px);
+        transform: translateY(64px);
     }
     &-buttons li {
         height: 15px;

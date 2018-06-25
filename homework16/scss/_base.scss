@@ -11,14 +11,13 @@ h1 {
 h2 {
     font-family: 'Ghotam', $fonts-default;
     font-weight: 900;
-    font-size: 1.8rem; 
-    letter-spacing: 1px;
-    margin: -4px 0 0 0;
+    font-size: 1.72rem;
+    margin: 0; 
 }
 h3 {  
     font-family: 'Lato-light', $fonts-default;
-    font-weight: 900;
-    font-size: 1rem;
+    font-weight: 600;
+    font-size: .95rem;
 }
 a {
     color: $link-text;
@@ -41,7 +40,7 @@ p {
     color: $internal-text;
 }
 .subtitle {
-    font-size: 1.1rem;
+    font-size: 1.04rem;
     margin: 0;
-    letter-spacing: .2px;
+    letter-spacing: .1px;
 }

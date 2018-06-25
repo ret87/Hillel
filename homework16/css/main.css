@@ -43,15 +43,14 @@ h1 {
 h2 {
   font-family: "Ghotam", Arial, Veranda, sans-serif;
   font-weight: 900;
-  font-size: 1.8rem;
-  letter-spacing: 1px;
-  margin: -4px 0 0 0;
+  font-size: 1.72rem;
+  margin: 0;
 }
 
 h3 {
   font-family: "Lato-light", Arial, Veranda, sans-serif;
-  font-weight: 900;
-  font-size: 1rem;
+  font-weight: 600;
+  font-size: .95rem;
 }
 
 a {
@@ -77,9 +76,9 @@ p {
 }
 
 .subtitle {
-  font-size: 1.1rem;
+  font-size: 1.04rem;
   margin: 0;
-  letter-spacing: .2px;
+  letter-spacing: .1px;
 }
 
 .header-logo {
@@ -109,17 +108,14 @@ p {
 .main-contact .contact-top {
   margin-right: 8px;
 }
-.main-contact .contact-top .top-items {
-  padding: 5px 4px;
-}
 
 .banner {
-  -webkit-transform: translateY(62px);
-          transform: translateY(62px);
+  -webkit-transform: translateY(61px);
+          transform: translateY(61px);
 }
 .banner ol {
-  -webkit-transform: translateY(65px);
-          transform: translateY(65px);
+  -webkit-transform: translateY(64px);
+          transform: translateY(64px);
 }
 .banner-buttons li {
   height: 15px;
@@ -132,7 +128,7 @@ p {
 }
 
 .services {
-  padding: 195px 0 137px 0;
+  padding: 195px 0 80px 0;
 }
 .services h3 {
   margin: 0 0 13px 0;
@@ -141,41 +137,38 @@ p {
   padding-top: 87px;
 }
 .services-main p {
-  font-size: .9rem;
+  font-size: .95rem;
   letter-spacing: .3px;
 }
-.services-clock {
+.services-items {
   padding: 0 0 55px 0;
+  margin: 0;
 }
-.services-clock .clock-img {
-  padding: 0;
-  margin: 0 23px 0 0;
+.services-items p {
+  font-size: .8rem;
+  letter-spacing: .5px;
+  line-height: 1.4rem;
 }
-.services-studi {
-  padding: 0 0 58px 0;
-}
-.services-studi .studi-img {
-  padding: 0;
-  margin: 0 5px 0 0;
-}
-.services-code .code-img {
+.services-items .clock-img {
   padding: 0;
   margin: 0 22px 0 0;
 }
-.services-respons {
-  padding: 0 0 55px 0;
+.services-items .studi-img {
+  padding: 0;
+  margin: 3px 5px 0 0;
 }
-.services-respons .respons-img {
+.services-items .code-img {
+  padding: 0;
+  margin: 0 22px 0 0;
+}
+.services-items .respons-img {
   margin: 0 0 0 17px;
 }
-.services-rocket {
-  padding: 0 0 58px 0;
-}
-.services-rocket .rocket-img {
+.services-items .rocket-img {
   margin: 0 0 0 17px;
 }
-.services-dollar .dollar-img {
-  margin: 0 0 0 31px;
+.services-items .dollar-img {
+  margin: -4px 0 0 33px;
 }
 
 .aboutus {
@@ -354,8 +347,6 @@ p.price-outside {
   margin: 34px 9.3% 95px 9%;
 }
 .contacts-items {
-  padding-top: 4px;
-  padding-bottom: 4px;
   border: 1px solid #aaa9a9;
 }
 .contacts-items-name {
