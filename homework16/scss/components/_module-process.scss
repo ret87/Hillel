@@ -1,6 +1,6 @@
 // process
 .process {
-    padding-top: 152px;
+    padding-top: 148px;
     padding-bottom: 150px;
     &-visual {
     margin-top: 105px;
@@ -24,13 +24,14 @@
     &-steps {
         width: 23%;
         h3 {
-            font-size: 1.3rem;
+            font-size: 1.15rem;
             margin-bottom: 21px; 
         }
         p {
             padding: 0 8px;
-            font-size: .9rem;
+            font-size: .8rem;
             letter-spacing: .5px;
+            line-height: 1.4rem;
         }
     }
     &-button {

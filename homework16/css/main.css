@@ -128,7 +128,7 @@ p {
 }
 
 .services {
-  padding: 195px 0 80px 0;
+  padding: 195px 0 81px 0;
 }
 .services h3 {
   margin: 0 0 13px 0;
@@ -176,7 +176,7 @@ p {
   background: #ffc155;
 }
 .aboutus-img {
-  max-height: 624px;
+  max-height: 623px;
 }
 .aboutus-article {
   margin-top: 157px;
@@ -254,7 +254,7 @@ p.price-outside {
 }
 
 .process {
-  padding-top: 152px;
+  padding-top: 148px;
   padding-bottom: 150px;
 }
 .process-visual {
@@ -281,13 +281,14 @@ p.price-outside {
   width: 23%;
 }
 .process-steps h3 {
-  font-size: 1.3rem;
+  font-size: 1.15rem;
   margin-bottom: 21px;
 }
 .process-steps p {
   padding: 0 8px;
-  font-size: .9rem;
+  font-size: .8rem;
   letter-spacing: .5px;
+  line-height: 1.4rem;
 }
 .process-button {
   padding: 12px 20px;
