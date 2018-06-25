@@ -1,32 +1,29 @@
 // feedback
 .feedback {
-    padding-top: 104px;
+    padding-top: 105px;
     background: $bckrnd-secondary;
 }
 
 // main
 .main {
     &-top p {
-        font-family: 'OpenSans-light';
-        font-size: 1.1rem;
-        margin-bottom: 29px;
+        font-family: 'OpenSans-light', $fonts-default;
+        font-size: 1.03rem;
+        margin-bottom: 31px;
     }
     &-contact {
         margin-left: 25px;
         margin-bottom: 6px;
         .contact-top {
-            margin-right: 9px;
+            margin-right: 8px;
             .top-items {
-                padding: 4px 2px;
+                padding: 5px 4px;
             }
         }
     }
 }
 .banner {
     transform: translateY(62px);
-    a {
-        background: none;
-    }
     ol {
         transform: translateY(65px);
     }

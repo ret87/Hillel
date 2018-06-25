@@ -2,31 +2,31 @@ body {
     background: white;
 }    
 h1 {
-    font-family: 'Ghotam';
+    font-family: 'Ghotam', $fonts-default;
     font-weight: 900;
-    font-size: 2.1rem;
-    letter-spacing: .8px;
+    font-size: 1.94rem;
+    letter-spacing: .1px;
     margin: 0;
 }
 h2 {
-    font-family: 'Ghotam';
+    font-family: 'Ghotam', $fonts-default;
     font-weight: 900;
     font-size: 1.8rem; 
     letter-spacing: 1px;
     margin: -4px 0 0 0;
 }
 h3 {  
-    font-family: 'Lato-light';
+    font-family: 'Lato-light', $fonts-default;
     font-weight: 900;
     font-size: 1rem;
 }
 a {
     color: $link-text;
-    font-family: 'Lato';
-    font-size: 14px;
+    font-family: 'Lato', $fonts-default;
+    font-size: .875rem;
 }
 p {
-    font-family: 'OpenSans-reg';
+    font-family: 'OpenSans-reg', $fonts-default;
     font-weight: normal;
     font-size: .8rem;
     }   
