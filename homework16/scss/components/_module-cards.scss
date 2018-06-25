@@ -1,10 +1,10 @@
 // cards
 .cards {
     padding-top: 136px;
-    padding-bottom: 136px;
+    padding-bottom: 140px;
     background: $bckrnd-hightlight;
     &-items {
-        margin-top: 54px;
+        margin-top: 55px;
         &-left, 
         &-right {
             padding: 44px 20px 32px 0;
@@ -27,19 +27,19 @@
     color: $text-hightlight;
     }
     &-mesage {
-        font-size: .9rem;
-        letter-spacing: .2px;
+        font-size: .85rem;
         line-height: 1.4rem;
         margin-bottom: 20px;
         &::before, 
         &::after {
             position: absolute; 
             color: $internal-text; 
-            font-size: 2rem
+            font-size: 2.5rem
         }
         &::before {
             content: '\201c'; 
             left: -20px; 
+            top: 5px;
         }  
         &::after {
             content: '\201e';

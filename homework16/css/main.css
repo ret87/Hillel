@@ -297,11 +297,11 @@ p.price-outside {
 
 .cards {
   padding-top: 136px;
-  padding-bottom: 136px;
+  padding-bottom: 140px;
   background: #ffc155;
 }
 .cards-items {
-  margin-top: 54px;
+  margin-top: 55px;
 }
 .cards-items-left, .cards-items-right {
   padding: 44px 20px 32px 0;
@@ -323,19 +323,19 @@ p.price-outside {
   color: #ffc155;
 }
 .cards-mesage {
-  font-size: .9rem;
-  letter-spacing: .2px;
+  font-size: .85rem;
   line-height: 1.4rem;
   margin-bottom: 20px;
 }
 .cards-mesage::before, .cards-mesage::after {
   position: absolute;
   color: #7b7b7b;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 .cards-mesage::before {
   content: '\201c';
   left: -20px;
+  top: 5px;
 }
 .cards-mesage::after {
   content: '\201e';
