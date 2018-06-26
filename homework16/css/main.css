@@ -317,7 +317,8 @@ p.price-outside {
 .cards-mesage {
   font-size: .85rem;
   line-height: 1.4rem;
-  margin-bottom: 20px;
+  padding-top: 2px;
+  margin-bottom: 18px;
 }
 .cards-mesage::before, .cards-mesage::after {
   position: absolute;
