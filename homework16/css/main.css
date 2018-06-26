@@ -391,6 +391,7 @@ p.price-outside {
   margin-top: 7px;
 }
 .contacts-nav {
+  margin: 0 8%;
   padding: 53px 0 2px 0;
   border-top: 1px solid #aaa9a9;
 }
@@ -414,8 +415,7 @@ p.price-outside {
 .footer {
   padding: 13px 0;
   background: #709dca;
-  font-size: .9rem;
-  letter-spacing: .8px;
+  letter-spacing: .35px;
 }
 
 /*# sourceMappingURL=main.css.map */

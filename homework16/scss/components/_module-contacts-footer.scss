@@ -54,6 +54,7 @@
         }
     }
     &-nav {
+        margin: 0 8%;
         padding: 53px 0 2px 0;
         border-top: 1px solid $border-blocks;
     }    
@@ -79,6 +80,5 @@
 .footer {
     padding: 13px 0;
     background: $bckrnd-secondary;
-    font-size: .9rem;
-    letter-spacing: .8px;
+    letter-spacing: .35px;
 }
