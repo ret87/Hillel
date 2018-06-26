@@ -279,7 +279,6 @@ p.price-outside {
 }
 .process-steps p {
   padding: 0 8px;
-  font-size: .8rem;
   letter-spacing: .5px;
   line-height: 1.4rem;
 }
@@ -372,7 +371,6 @@ p.price-outside {
 }
 .contacts .address p {
   line-height: .6rem;
-  font-size: .8rem;
 }
 .contacts .address p:last-child {
   letter-spacing: .29px;
