@@ -76,7 +76,7 @@ p {
 }
 
 .subtitle {
-  font-size: 1.04rem;
+  font-size: 1rem;
   margin: 0;
   letter-spacing: .3px;
 }
@@ -197,11 +197,11 @@ p {
 
 .price {
   padding-top: 130px;
-  padding-bottom: 165px;
+  padding-bottom: 166px;
   background: #e7edf3;
 }
 .price-plans {
-  margin-top: 50px;
+  margin-top: 49px;
 }
 .price h3 {
   font-size: 1.41rem;
@@ -342,11 +342,11 @@ p.price-outside {
 }
 
 .contacts {
-  padding-top: 153px;
-  padding-bottom: 48px;
+  padding-top: 148px;
+  padding-bottom: 50px;
 }
 .contacts-subscribe {
-  margin: 34px 9.3% 95px 9%;
+  margin: 35px 9.3% 95px 9%;
 }
 .contacts-items {
   border: 1px solid #aaa9a9;
@@ -390,30 +390,29 @@ p.price-outside {
 .contacts .address-triangle {
   width: 0;
   height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-top: 10px solid #394b50;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 12px solid #394b50;
 }
 .contacts .address-logo {
-  margin-top: 9px;
+  margin-top: 7px;
 }
-.contacts .nav-bot {
-  padding-top: 54px;
+.contacts-nav {
+  padding: 53px 0 2px 0;
   border-top: 1px solid #aaa9a9;
 }
 .contacts-phone {
-  margin-top: 10px;
+  margin-top: 8px;
 }
 .contacts-phone .phone-img {
   margin-top: 6px;
-  padding: 0 0 0 5px;
+  padding: 0 0 0 1px;
 }
 .contacts-phone .phone-number {
   padding: 0;
   margin-left: 5px;
   line-height: 2rem;
-  font-size: 1.6rem;
-  font-weight: bold;
+  font-size: 1.4rem;
 }
 .contacts-logo-items {
   margin: 0 8px;

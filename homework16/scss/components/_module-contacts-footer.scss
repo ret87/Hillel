@@ -1,9 +1,9 @@
 // contacts
 .contacts {
-    padding-top: 153px;
-    padding-bottom: 48px;
+    padding-top: 148px;
+    padding-bottom: 50px;
     &-subscribe {
-        margin: 34px 9.3% 95px 9%;
+        margin: 35px 9.3% 95px 9%;
     }
     &-items {
         border: 1px solid $border-blocks;
@@ -46,30 +46,29 @@
         &-triangle {
             width: 0;
             height: 0;
-            border-left: 5px solid transparent;
-            border-right: 5px solid transparent;
-            border-top: 10px solid $bckrnd-address;
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            border-top: 12px solid $bckrnd-address;
         }
         &-logo {
-            margin-top: 9px;
+            margin-top: 7px;
         }
-    }    
-    .nav-bot {
-        padding-top: 54px;
-        border-top: 1px solid $border-blocks;
     }
+    &-nav {
+        padding: 53px 0 2px 0;
+        border-top: 1px solid $border-blocks;
+    }    
     &-phone {
-        margin-top: 10px;
+        margin-top: 8px;
         .phone-img {
             margin-top: 6px;
-            padding: 0 0 0 5px;    
+            padding: 0 0 0 1px;    
         }
         .phone-number {
             padding: 0;
             margin-left: 5px;
             line-height: 2rem;
-            font-size: 1.6rem;
-            font-weight: bold;
+            font-size: 1.4rem;
         }
     }
     &-logo-items {
