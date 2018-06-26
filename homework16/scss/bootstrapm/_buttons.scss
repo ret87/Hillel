@@ -1,8 +1,16 @@
 .btn-primary {
-    padding: 12px 44px;
-    font-size: 0.8rem;
-    @include hover-focus {
+  padding: 11px 20px;
+  font-size: 0.8rem;
+  @include hover-focus {
+    background: $primary;
+    color: white;
+  }
+}          
+.btn-secondary {
+  padding: 12px 44px;
+  font-size: 0.8rem;
+  @include hover-focus {
       background: $primary;
       color: white;
-    }
-  }    
+  }
+}
