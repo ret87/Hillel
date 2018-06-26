@@ -1,3 +1,7 @@
 body {
     background: grey;
+    color: red;
+}
+a {
+    list-style: none;
 }
