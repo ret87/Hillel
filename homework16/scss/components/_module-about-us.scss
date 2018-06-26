@@ -2,12 +2,10 @@
 .aboutus {
     color: white;
     background: $bckrnd-hightlight;
-    &-img {
-        max-height: 623px;
-    }
     &-article {
-    margin-top: 157px;
-    margin-left: 4.1rem;
+    height: auto;
+    margin: 15.7% 0;    
+    padding: 1.45rem 0 1.45rem 4.1rem;
         p {
             margin-top: 18px; 
             padding-right: 0;
