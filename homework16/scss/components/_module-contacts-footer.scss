@@ -3,21 +3,19 @@
     padding-top: 147px;
     padding-bottom: 49px;
     &-subscribe {
-        margin: 36px 9.3% 93px 9%;
-    }
+        margin: 36px 9% 93px 9%;
+        }
     &-items {
         border: 1px solid $border-blocks;
-        &-name {
-            width: 33%;
-        }
+        margin-right: 10px;
         &-mail {
-            width: 41.5%;
-        }
+            padding-right: 100px; 
+       }
     }
     &-button {
         line-height: 1.45rem;
-        padding-left: 52px;
-        padding-right: 53px;
+        padding-left: 55px;
+        padding-right: 54px;
     }
     .address {
         margin-bottom: 67px;

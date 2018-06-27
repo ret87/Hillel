@@ -337,21 +337,19 @@ p.price-outside {
   padding-bottom: 49px;
 }
 .contacts-subscribe {
-  margin: 36px 9.3% 93px 9%;
+  margin: 36px 9% 93px 9%;
 }
 .contacts-items {
   border: 1px solid #aaa9a9;
-}
-.contacts-items-name {
-  width: 33%;
+  margin-right: 10px;
 }
 .contacts-items-mail {
-  width: 41.5%;
+  padding-right: 100px;
 }
 .contacts-button {
   line-height: 1.45rem;
-  padding-left: 52px;
-  padding-right: 53px;
+  padding-left: 55px;
+  padding-right: 54px;
 }
 .contacts .address {
   margin-bottom: 67px;
