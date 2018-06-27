@@ -333,7 +333,7 @@ p.price-outside {
 }
 
 .contacts {
-  padding-top: 148px;
+  padding-top: 147px;
   padding-bottom: 49px;
 }
 .contacts-subscribe {
@@ -349,8 +349,9 @@ p.price-outside {
   width: 41.5%;
 }
 .contacts-button {
+  line-height: 1.45rem;
   padding-left: 52px;
-  padding-right: 52px;
+  padding-right: 53px;
 }
 .contacts .address {
   margin-bottom: 67px;
