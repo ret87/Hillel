@@ -11,13 +11,13 @@
         }    
     }
     &-items {
+        padding: 0 0px 55px 0;
+        margin: 0;
         p {
             font-size: .8rem;
             letter-spacing: .5px;
             line-height: 1.4rem;
         }
-        padding: 0 0 55px 0;
-        margin: 0;
         .clock-img {
             padding: 0;
             margin: 0 22px 0 0;
@@ -31,13 +31,19 @@
             margin: 0 22px 0 0;
         }
         .respons-img {
-            margin: 0 0 0 17px;
+            padding: 0;
+            margin: 0 17px 0 0;
         }
         .rocket-img {
-            margin: 0 0 0 17px;
+            padding: 0;
+            margin: 0 17px 0 0;
         }
         .dollar-img {
-            margin: -4px 0 0 33px;
+            padding: 0;
+            margin: -4px 13px 0 20px;
         }
     }
+}
+.services-main-left {
+    margin-right: 50px;
 }
