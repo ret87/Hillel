@@ -1666,7 +1666,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0px;
 }
 .navbar > .container,
 .navbar > .container-fluid {
@@ -1687,7 +1687,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   display: inline-block;
   padding-top: 0.33125rem;
   padding-bottom: 0.33125rem;
-  margin-right: 1rem;
+  margin-right: 0px;
   font-size: 1.125rem;
   line-height: inherit;
   white-space: nowrap;
@@ -1786,8 +1786,8 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
     position: absolute;
   }
   .navbar-expand-sm .navbar-nav .nav-link {
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
+    padding-right: 17.8px;
+    padding-left: 17.8px;
   }
   .navbar-expand-sm > .container,
   .navbar-expand-sm > .container-fluid {
@@ -1832,8 +1832,8 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
     position: absolute;
   }
   .navbar-expand-md .navbar-nav .nav-link {
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
+    padding-right: 17.8px;
+    padding-left: 17.8px;
   }
   .navbar-expand-md > .container,
   .navbar-expand-md > .container-fluid {
@@ -1878,8 +1878,8 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
     position: absolute;
   }
   .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
+    padding-right: 17.8px;
+    padding-left: 17.8px;
   }
   .navbar-expand-lg > .container,
   .navbar-expand-lg > .container-fluid {
@@ -1924,8 +1924,8 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
     position: absolute;
   }
   .navbar-expand-xl .navbar-nav .nav-link {
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
+    padding-right: 17.8px;
+    padding-left: 17.8px;
   }
   .navbar-expand-xl > .container,
   .navbar-expand-xl > .container-fluid {
@@ -1967,8 +1967,8 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   position: absolute;
 }
 .navbar-expand .navbar-nav .nav-link {
-  padding-right: 0.5rem;
-  padding-left: 0.5rem;
+  padding-right: 17.8px;
+  padding-left: 17.8px;
 }
 .navbar-expand > .container,
 .navbar-expand > .container-fluid {
@@ -2009,7 +2009,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 }
 .navbar-light .navbar-toggler {
   color: rgba(0, 0, 0, 0.5);
-  border-color: rgba(0, 0, 0, 0.1);
+  border-color: #ffc155;
 }
 .navbar-light .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
@@ -2060,6 +2060,38 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 }
 .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
   color: #fff;
+}
+
+.fade {
+  -webkit-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
+}
+@media screen and (prefers-reduced-motion: reduce) {
+  .fade {
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+.fade:not(.show) {
+  opacity: 0;
+}
+
+.collapse:not(.show) {
+  display: none;
+}
+
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height 0.35s ease;
+  transition: height 0.35s ease;
+}
+@media screen and (prefers-reduced-motion: reduce) {
+  .collapsing {
+    -webkit-transition: none;
+    transition: none;
+  }
 }
 
 .container {
