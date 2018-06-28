@@ -275,9 +275,6 @@ p.price-outside {
   -webkit-transform: translate(14px, 96px);
           transform: translate(14px, 96px);
 }
-.process-steps {
-  width: 23%;
-}
 .process-steps h3 {
   font-size: 1.15rem;
   margin-bottom: 21px;
