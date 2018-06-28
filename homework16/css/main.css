@@ -298,17 +298,19 @@ p.price-outside {
   margin-top: 55px;
 }
 .cards-items-left, .cards-items-right {
-  padding: 44px 20px 32px 0;
+  padding: 44px 22px 32px 0;
   margin-bottom: 20px;
 }
 .cards-items-left {
+  margin-left: 3px;
   margin-right: 3px;
 }
 .cards-items-right {
+  margin-right: 3px;
   margin-left: 3px;
 }
 .cards-photo {
-  margin-left: 30px;
+  margin-left: 29px;
   width: 100%;
   max-width: 120px;
   height: auto;
@@ -317,10 +319,10 @@ p.price-outside {
   color: #ffc155;
 }
 .cards-mesage {
-  font-size: .85rem;
-  line-height: 1.4rem;
   padding-top: 2px;
   margin-bottom: 18px;
+  font-size: .85rem;
+  line-height: 1.4rem;
 }
 .cards-mesage::before, .cards-mesage::after {
   position: absolute;
