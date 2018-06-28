@@ -45,33 +45,26 @@ h2 {
   font-weight: 900;
   font-size: 1.7rem;
   margin: 0;
+  color: #394b50;
 }
 
 h3 {
   font-family: "Lato-light", Arial, Veranda, sans-serif;
-  font-weight: 300;
+  font-weight: 600;
   font-size: .95rem;
+  color: #394b50;
 }
 
 a {
-  color: #7b7b7b;
   font-family: "Lato", Arial, Veranda, sans-serif;
   font-size: .875rem;
+  color: #394b50;
 }
 
 p {
   font-family: "OpenSans-reg", Arial, Veranda, sans-serif;
   font-weight: normal;
   font-size: .8rem;
-}
-
-.services p,
-.cards p,
-.contacts p,
-.price p,
-.process p,
-.cards p,
-.contacts p {
   color: #7b7b7b;
 }
 
@@ -79,6 +72,7 @@ p {
   font-size: 1rem;
   margin: 0;
   letter-spacing: .3px;
+  color: #394b50;
 }
 
 .header-logo {
@@ -114,7 +108,7 @@ p {
 .banner-buttons li {
   height: 15px;
   width: 15px;
-  border: 2px solid #aaa9a9;
+  border: 2px solid #e3e7ec;
   border-radius: 100%;
 }
 .banner-buttons li:first-child {
@@ -192,6 +186,7 @@ p {
   margin: 13px 0 0 16px;
   padding: 10px 31px;
   border: 1px solid #e7ad48;
+  background: #ffc155;
 }
 
 .price {
@@ -204,8 +199,10 @@ p {
 }
 .price h3 {
   font-size: 1.41rem;
+  font-weight: normal;
   letter-spacing: 1px;
   padding-bottom: 20px;
+  color: #818b95;
 }
 .price-plans p {
   letter-spacing: .4px;
@@ -217,6 +214,11 @@ p {
 .price-first h3, .price-thrd h3 {
   margin-top: 52px;
 }
+.price-first-items, .price-thrd-items {
+  border-top: 1px solid #e2e9f0;
+  padding-top: 11px;
+  margin-bottom: 9px;
+}
 .price-middle {
   background: #709dca;
   padding-bottom: 77px;
@@ -227,6 +229,11 @@ p {
 .price-middle h3 {
   margin-top: 83px;
 }
+.price-middle-items {
+  border-top: 1px solid #8eb8e2;
+  padding-top: 11px;
+  margin-bottom: 9px;
+}
 .price-cost {
   vertical-align: -15px;
   font-size: 4rem;
@@ -234,21 +241,13 @@ p {
 .price-dollar {
   font-size: 2.5rem;
   line-height: 2rem;
+  color: #ffbb42;
 }
 .price .end-toppart {
   margin-bottom: 25px;
 }
-.price-items {
-  border-top: 1px solid #aaa9a9;
-  padding-top: 11px;
-  margin-bottom: 9px;
-}
 .price-button {
   margin-top: 22px;
-}
-
-p.price-outside {
-  color: #ffc155;
 }
 
 .process {
@@ -285,7 +284,7 @@ p.price-outside {
   line-height: 1.4rem;
 }
 .process-button {
-  padding: 12px 20px;
+  padding: 12px 28px;
   margin-top: 70px;
 }
 
@@ -316,7 +315,10 @@ p.price-outside {
   height: auto;
 }
 .cards-name {
-  color: #ffc155;
+  color: #f6772c;
+}
+.cards-prof {
+  color: #99a9ae;
 }
 .cards-mesage {
   padding-top: 2px;
@@ -328,6 +330,7 @@ p.price-outside {
   position: absolute;
   color: #7b7b7b;
   font-size: 2.5rem;
+  color: #b0b0b0;
 }
 .cards-mesage::before {
   content: '\201c';
@@ -336,6 +339,7 @@ p.price-outside {
 }
 .cards-mesage::after {
   content: '\201e';
+  bottom: 60px;
 }
 
 .contacts {
@@ -346,7 +350,7 @@ p.price-outside {
   margin: 36px 9% 93px 9%;
 }
 .contacts-items {
-  border: 1px solid #aaa9a9;
+  border: 1px solid #cbcbcb;
   margin-right: 10px;
 }
 .contacts-items-mail {
@@ -375,11 +379,12 @@ p.price-outside {
 }
 .contacts .address p {
   line-height: .6rem;
+  color: #9ea9ac;
 }
 .contacts .address p:last-child {
   letter-spacing: .29px;
   line-height: .15rem;
-  color: #ffc155;
+  color: #ffbb42;
 }
 .contacts .address-triangle {
   width: 0;
@@ -394,7 +399,7 @@ p.price-outside {
 .contacts-nav {
   margin: 0 8%;
   padding: 53px 0 2px 0;
-  border-top: 1px solid #aaa9a9;
+  border-top: 1px solid #e3e7ec;
 }
 .contacts-phone {
   margin-top: 8px;
@@ -408,6 +413,7 @@ p.price-outside {
   margin-left: 5px;
   line-height: 2rem;
   font-size: 1.4rem;
+  color: #394b50;
 }
 .contacts-logo-items {
   margin: 0 8px;

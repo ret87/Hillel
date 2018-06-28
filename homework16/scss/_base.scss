@@ -13,34 +13,29 @@ h2 {
     font-weight: 900;
     font-size: 1.7rem;
     margin: 0; 
+    color: $tittles-color;
 }
 h3 {  
     font-family: 'Lato-light', $fonts-default;
-    font-weight: 300;
+    font-weight: 600;
     font-size: .95rem;
+    color: $tittles-color;
 }
 a {
-    color: $link-text;
     font-family: 'Lato', $fonts-default;
     font-size: .875rem;
+    color: $link-text;
 }
 p {
     font-family: 'OpenSans-reg', $fonts-default;
     font-weight: normal;
     font-size: .8rem;
+    color: $internal-text;
     }   
     
-.services p, 
-.cards p,
-.contacts p,
-.price p,
-.process p,
-.cards p,
-.contacts p, {
-    color: $internal-text;
-}
 .subtitle {
     font-size: 1rem;
     margin: 0;
     letter-spacing: .3px;
+    color: $tittles-color;
 }

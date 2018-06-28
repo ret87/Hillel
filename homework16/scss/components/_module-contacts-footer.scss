@@ -6,7 +6,7 @@
         margin: 36px 9% 93px 9%;
         }
     &-items {
-        border: 1px solid $border-blocks;
+        border: 1px solid $border-input;
         margin-right: 10px;
         &-mail {
             padding-right: 100px; 
@@ -34,10 +34,11 @@
         }
         p {
             line-height: .6rem;
+            color: $text-address-circle;
             &:last-child {
                 letter-spacing: .29px; 
                 line-height: .15rem;
-                color: $text-hightlight;
+                color: $primary;
             }
         }
         &-triangle {
@@ -67,6 +68,7 @@
             margin-left: 5px;
             line-height: 2rem;
             font-size: 1.4rem;
+            color: $text-phone;
         }
     }
     &-logo-items {

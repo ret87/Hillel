@@ -26,8 +26,11 @@
         height: auto;
     }
     &-name {
-    color: $text-hightlight;
-    }
+        color: $text-hightlight;
+        }
+    &-prof {
+        color: $text-cardsprof;
+        }
     &-mesage {
         padding-top: 2px;
         margin-bottom: 18px;
@@ -37,7 +40,8 @@
         &::after {
             position: absolute; 
             color: $internal-text; 
-            font-size: 2.5rem
+            font-size: 2.5rem;
+            color: $text-blockquote;
         }
         &::before {
             content: '\201c'; 
@@ -46,6 +50,7 @@
         }  
         &::after {
             content: '\201e';
+            bottom: 60px;
         }
     }
 }
