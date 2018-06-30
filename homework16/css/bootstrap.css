@@ -1650,7 +1650,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 
 .nav-link:hover, .nav-link:focus {
   background: #ffbb42;
-  color: #7b7b7b;
+  color: #394b50;
 }
 
 .navbar {
@@ -7176,5 +7176,4 @@ a.text-dark:hover, a.text-dark:focus {
 .invisible {
   visibility: hidden !important;
 }
-
 /*# sourceMappingURL=bootstrap.css.map */

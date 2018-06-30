@@ -41,3 +41,27 @@ $font-size-base:              .9rem;
 $input-btn-padding-y:         .75rem;
 $input-btn-padding-x:         .7rem;
 
+// text and fonts
+$fonts-default: Arial, Veranda, sans-serif;
+$internal-text: #7b7b7b;
+$tittles-color: #394b50;
+$link-text: $tittles-color;
+$text-hightlight: #f6772c;
+$text-priceplan: #818b95;
+$text-blockquote: #b0b0b0; 
+$text-cardsprof: #99a9ae;
+$text-phone: #394b50;
+$text-address-circle: #9ea9ac;
+
+// background
+$bckrnd-hightlight: #ffc155;
+$bckrnd-secondary: #709dca;
+$bckrnd-price: #e7edf3;
+$bckrnd-address: #394b50;
+
+// border-colors
+$border-input: #cbcbcb;
+$border-blocks: #e3e7ec;
+$border-textprice: #e2e9f0;
+$border-textprice-hight: #8eb8e2;
+$border-buttons-circle: $bckrnd-secondary;
