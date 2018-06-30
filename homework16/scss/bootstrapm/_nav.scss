@@ -1,7 +1,6 @@
 .nav-link {
   @include hover-focus {
     background: $primary;
-    color: white;
-    
+    color: $link-text;
   }
 }
